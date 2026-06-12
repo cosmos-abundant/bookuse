@@ -1,0 +1,51 @@
+---
+config:
+  theme: base
+  themeVariables:
+    fontFamily: "Pretendard, 'Noto Sans KR', sans-serif"
+    fontSize: "13px"
+    primaryColor: "#F0F4F8"
+    primaryTextColor: "#243B53"
+    primaryBorderColor: "#243B53"
+    lineColor: "#243B53"
+    secondaryColor: "#FFFFFF"
+    tertiaryColor: "#FFF4E6"
+  flowchart:
+    curve: linear
+---
+%% 그림 1-1 | ch01-fig01
+%% 삽입 위치: 1장 "보조, 위임, 자동화 — 일을 맡기는 세 가지 깊이" 절,
+%%   기준 문장 "자기 업무가 어느 단계인지는 두 번 물으면 가려진다." 바로 다음
+%%   (단계별 비교 표 뒤). 표는 세 단계의 '모습'을, 이 그림은 '판별 절차'를 맡는다 — 역할 중복 없음.
+%% 캡션: 그림 1-1. 내 업무가 어느 단계인지 가리는 두 가지 질문. 어떤 반복 업무든
+%%   이 두 질문에 차례로 답하면 보조·위임·자동화 중 한 칸에 떨어진다.
+%% 대체 텍스트: 두 단계 판별 플로차트. 첫 질문 "내가 자리를 비워도 그 일이 시작되는가?"에
+%%   '그렇다'면 자동화 단계(시스템이 스스로 돌고, 사람의 일은 검수와 예외 처리)다.
+%%   '아니다'면 둘째 질문 "시작한 뒤의 과정을 내가 끌고 가는가?"로 간다. '그렇다'면
+%%   보조 단계(사람이 일을 끌고 가고 AI는 한 토막을 가속), '아니다, 시작 버튼만 누르고
+%%   검수한다'면 위임 단계(일 묶음을 통째로 맡기고 결과만 검수)다. 김지유의 월요일
+%%   보고서는 보조 단계에 해당한다.
+
+flowchart TD
+    Q1{"질문 ①<br/>내가 자리를 비워도<br/>그 일이 <b>시작</b>되는가?"}
+    Q2{"질문 ②<br/>시작한 뒤의 과정을<br/>내가 <b>끌고 가는가</b>?"}
+
+    A["<b>자동화</b><br/>시스템이 스스로 돈다<br/>사람의 일 = 검수와 예외 처리"]
+    B["<b>보조</b><br/>사람이 전 과정을 운전<br/>AI는 한 토막을 가속"]
+    C["<b>위임</b><br/>일 묶음을 통째로 맡기고<br/>결과를 검수<br/><i>(자동화 직전의 정거장)</i>"]
+
+    N["김지유의 월요일 보고서:<br/>연차를 내면 시작되지 않고(①아니다),<br/>9시부터 직접 끌고 간다(②그렇다)"]
+
+    Q1 -- "그렇다" --> A
+    Q1 -- "아니다" --> Q2
+    Q2 -- "그렇다" --> B
+    Q2 -- "아니다<br/>시작 버튼만 누르고 검수" --> C
+    N -.-> B
+
+    classDef accent fill:#FFF4E6,stroke:#D9480F,stroke-width:2px,color:#243B53;
+    classDef neutral fill:#F0F4F8,stroke:#243B53,color:#243B53;
+    classDef note fill:#FFFFFF,stroke:#829AB1,stroke-dasharray:4 3,color:#829AB1;
+
+    class A accent;
+    class B,C neutral;
+    class N note;

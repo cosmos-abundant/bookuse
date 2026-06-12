@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+그림 1-3 | ch01-fig03
+삽입 위치: 1장 "88%가 도입했고, 21%만 일을 다시 설계했다" 절,
+  기준 문장 "88과 21 사이의 그 공간이 이 책이 파고드는 자리다." 직후.
+캡션: 그림 1-3. 도입은 흔해졌고, 일의 재설계는 드물다 — 88과 21 사이가 이 책의 자리다.
+  출처: McKinsey & Company, 「The State of AI」. 88%: 2025년 11월 조사(약 105개국,
+  응답자 1,993명, 조직 기준), 21%: 2025년 3월 보고서(생성형 AI 사용 조직 중 응답).
+  두 수치는 서로 다른 차수의 조사다.
+대체 텍스트: 가로 막대 두 개의 비교 차트. 1개 이상 기능에 AI를 쓰는 조직은 88%(McKinsey
+  2025년 11월 조사)인 반면, 그중 워크플로를 근본적으로 재설계했다는 응답은 21%(McKinsey
+  2025년 3월 보고서)다. 21과 88 사이의 빈 구간에 "이 책이 파고드는 자리"라고 표시되어 있다.
+  두 수치는 같은 기관의 서로 다른 차수 조사에서 나온 것으로, 분모와 시점이 다르다.
+수치 근거: research/ch01-foundations.md 카드 03 (본문 수치와 일치 확인, 2026-06-12).
+  카드 메모 "두 수치가 서로 다른 차수 보고서(3월/11월)에서 나왔으므로 시점 분리 표기" 준수.
+스타일: books/ai-for-marketers/art/style.md
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 296" width="760" height="296" role="img" aria-labelledby="t d">
+  <title id="t">조직의 AI 도입률 88%와 워크플로 재설계율 21%의 갭</title>
+  <desc id="d">1개 이상 기능에 AI를 쓰는 조직 88%(McKinsey 2025년 11월), 워크플로를 근본 재설계한 조직 21%(McKinsey 2025년 3월). 그 사이가 이 책이 파고드는 자리다.</desc>
+  <style>
+    text { font-family: Pretendard, 'Noto Sans KR', sans-serif; fill: #243B53; }
+    .lab { font-size: 13px; }
+    .src { font-size: 11px; fill: #829AB1; }
+    .num { font-size: 28px; font-weight: 700; }
+    .gap { font-size: 14px; font-weight: 700; fill: #D9480F; }
+    .note { font-size: 11px; fill: #829AB1; }
+  </style>
+  <rect x="0" y="0" width="760" height="296" fill="#FFFFFF"/>
+
+  <!-- 막대 1: 도입 (88%) -->
+  <text x="40" y="34" class="lab">1개 이상 기능에 AI를 쓰는 조직</text>
+  <text x="40" y="50" class="src">McKinsey 2025년 11월 조사 · 약 105개국 · 응답자 1,993명</text>
+  <rect x="40" y="60" width="528" height="36" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <text x="578" y="87" class="num">88%</text>
+
+  <!-- 막대 2: 재설계 (21%) -->
+  <text x="40" y="138" class="lab">그중 "워크플로를 근본적으로 재설계했다"</text>
+  <text x="40" y="154" class="src">McKinsey 2025년 3월 보고서 · 생성형 AI 사용 조직 중 응답</text>
+  <rect x="40" y="164" width="126" height="36" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <text x="176" y="191" class="num">21%</text>
+
+  <!-- 갭 구간: 21 끝(x=166)부터 88 끝(x=568)까지 -->
+  <rect x="222" y="164" width="346" height="36" fill="none" stroke="#D9480F" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="395" y="187" class="gap" text-anchor="middle">이 책이 파고드는 자리</text>
+  <line x1="568" y1="96" x2="568" y2="164" stroke="#D9480F" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- 보조 사실 -->
+  <text x="40" y="234" class="lab">사용은 흔해졌고, 일의 재설계는 드물다. AI를 쓰는 조직의 약 3분의 2는 아직 실험·파일럿 단계다.</text>
+
+  <!-- 각주 -->
+  <text x="40" y="262" class="note">※ 두 수치는 같은 기관(McKinsey)의 서로 다른 차수 조사에서 나왔다 — 분모와 시점이 다르므로</text>
+  <text x="40" y="277" class="note">갭의 정확한 크기가 아니라 방향을 읽을 것. 사용률 통계는 조사 설계에 따라 크게 달라진다(본문 참조).</text>
+</svg>

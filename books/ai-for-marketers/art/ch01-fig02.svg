@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+그림 1-2 | ch01-fig02
+삽입 위치: 1장 "일은 사라지지 않는다, 성격이 바뀐다" 절,
+  기준 문장 "월요일 4시간의 정체는 만들기다. 내려받고, 붙이고, 계산하고, 옮긴다.
+  자동화 후의 40분은 검수다." 가 속한 단락 바로 뒤.
+캡션: 그림 1-2. 김지유의 월요일, 보조에서 자동화로 — 같은 축척으로 본 약 4시간(만들기)과
+  40분(검수). 김지유는 가상 인물이며 '40분'은 이 책이 만들 목표 상태다(통계 아님).
+대체 텍스트: 두 개의 가로 막대를 같은 축척으로 비교한 타임라인. 위 막대는 현재(보조 단계)의
+  월요일로, 9시부터 12시 50분까지 데이터 다운로드 40분, 엑셀 취합 1시간, 전주 대비 증감 계산
+  50분, ChatGPT 코멘트 초안 수정과 PPT 옮기기 1시간 20분이 이어져 약 4시간이 걸린다.
+  아래 막대는 자동화 후의 목표 상태로, 8시에 시스템이 보낸 초안이 먼저 도착해 있고 사람 손이
+  닿는 시간은 검수 40분뿐이다(숫자 원본 대조, 이상 증감 의심, 맥락 코멘트). 시간은 6분의 1로
+  줄고, 남는 일의 성격은 만들기에서 판단으로 바뀐다.
+수치 근거: 본문 1장 도입 장면(9:00/9:40/10:40/11:30/12:50) 및 3단계 표("40분이 목표").
+  외부 통계 아님 — 페르소나 사례(자료카드 12 인용 규칙 준수).
+스타일: books/ai-for-marketers/art/style.md
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 352" width="800" height="352" role="img" aria-labelledby="t d">
+  <title id="t">김지유의 월요일 비포/애프터 타임라인 — 만들기 약 4시간에서 검수 40분으로</title>
+  <desc id="d">현재의 월요일은 다운로드 40분, 엑셀 취합 1시간, 증감 계산 50분, ChatGPT 코멘트와 PPT 정리 1시간 20분으로 약 4시간. 자동화 후에는 8시에 초안이 도착해 있고 사람의 일은 검수 40분이 목표다.</desc>
+  <style>
+    text { font-family: Pretendard, 'Noto Sans KR', sans-serif; fill: #243B53; }
+    .h { font-size: 13px; font-weight: 700; }
+    .seg { font-size: 11px; }
+    .tick { font-size: 11px; fill: #829AB1; }
+    .note { font-size: 11px; fill: #829AB1; }
+    .sum { font-size: 13px; }
+  </style>
+  <rect x="0" y="0" width="800" height="352" fill="#FFFFFF"/>
+
+  <!-- ===== 비포: 보조 단계 ===== -->
+  <text x="100" y="30" class="h">지금의 월요일 — 보조 단계: 9시부터 사람이 만든다 (약 4시간)</text>
+
+  <!-- 구간 라벨 -->
+  <text x="152" y="56" class="seg" text-anchor="middle">다운로드 ×3채널</text>
+  <text x="152" y="69" class="seg" text-anchor="middle">(40분)</text>
+  <text x="283" y="56" class="seg" text-anchor="middle">엑셀 한 장으로 취합</text>
+  <text x="283" y="69" class="seg" text-anchor="middle">(1시간)</text>
+  <text x="426" y="56" class="seg" text-anchor="middle">전주 대비 증감 계산</text>
+  <text x="426" y="69" class="seg" text-anchor="middle">(50분)</text>
+  <text x="596" y="56" class="seg" text-anchor="middle">ChatGPT 코멘트 → 수정 → PPT</text>
+  <text x="596" y="69" class="seg" text-anchor="middle">(1시간 20분)</text>
+
+  <!-- 막대 (축척 600px = 230분) -->
+  <g stroke="#243B53" stroke-width="1.5" fill="#F0F4F8">
+    <rect x="100" y="78" width="104" height="36"/>
+    <rect x="204" y="78" width="157" height="36"/>
+    <rect x="361" y="78" width="130" height="36"/>
+    <rect x="491" y="78" width="209" height="36"/>
+  </g>
+
+  <!-- 시각 눈금 -->
+  <g class="tick" text-anchor="middle">
+    <text x="100" y="132">9:00</text>
+    <text x="204" y="132">9:40</text>
+    <text x="361" y="132">10:40</text>
+    <text x="491" y="132">11:30</text>
+    <text x="700" y="132">12:50</text>
+  </g>
+  <text x="712" y="101" class="seg" font-weight="700">회의 10분 전</text>
+
+  <!-- ===== 애프터: 자동화 단계 ===== -->
+  <text x="100" y="196" class="h">이 책이 만들 월요일 — 자동화 단계: 8시에 초안이 먼저 도착해 있다</text>
+
+  <!-- 8:00 도착 주석 (지속 시간 아님 — 점선 주석) -->
+  <rect x="100" y="208" width="252" height="22" fill="#FFFFFF" stroke="#829AB1" stroke-width="1" stroke-dasharray="4 3" rx="4"/>
+  <text x="110" y="223" class="note">8:00 초안 보고서 도착 — 시스템 발송, 사람 손 0분</text>
+
+  <!-- 검수 막대: 40분 = 104px (위와 동일 축척) -->
+  <rect x="100" y="242" width="104" height="36" fill="#FFF4E6" stroke="#D9480F" stroke-width="2"/>
+  <text x="152" y="265" class="seg" text-anchor="middle" font-weight="700">검수 40분</text>
+  <text x="216" y="258" class="seg">숫자 원본 대조 · 이상한 증감에 의심 걸기 ·</text>
+  <text x="216" y="272" class="seg">시스템이 모르는 맥락(프로모션·경쟁사) 얹기</text>
+
+  <!-- 요약 -->
+  <text x="100" y="312" class="sum">약 4시간 → 40분: 시간은 6분의 1로, 남는 일은 <tspan font-weight="700">만들기</tspan>에서 <tspan font-weight="700">판단</tspan>으로.</text>
+
+  <!-- 각주 -->
+  <text x="100" y="338" class="note">※ 김지유는 가상의 인물이며 '40분'은 이 책이 만들 목표 상태다(통계 아님). 두 막대는 동일 축척.</text>
+</svg>
