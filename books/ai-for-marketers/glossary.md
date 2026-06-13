@@ -39,6 +39,11 @@
 | Structured Outputs | 스트럭처드 아웃풋, 구조화 출력 | 영문 고정(API 기능명). "스키마 강제, 또는 Structured Outputs" 식 병기(3장) |
 | few-shot | 퓨샷, few shot | 영문 소문자 하이픈 고정. "예시 동봉(few-shot)"으로 첫 등장(3장) |
 | 출력 변동성 | — | "흔들림"의 풀이 표현. 본문 평이어는 "흔들림" 우선 |
+| deprecation / 단종 | 디프리케이션 | 본문 평이어는 "단종". 영문 인용 시 "deprecation". Anthropic 4단계는 영문 그대로(Active → Legacy → Deprecated → Retired)(12장) |
+| 모델 단종 | — | 도구는 살아 있는데 그 안의 모델이 교체·은퇴되는 일. "은퇴/끄다"와 혼용 허용(12장) |
+| 벤더 락인 | 벤더 록인, 종속 | 첫 등장 시 "벤더 락인(vendor lock-in)" 병기. 본문 평이어는 "락인"(12장) |
+| 데이터 이식성 | 데이터 포터빌리티 | 한글 고정(12장) |
+| 이식 자산 / 폐기 자산 | — | 책의 조어. 갈아탈 때 들고 가는 것 / 버려지는 것(12장) |
 
 ## 도구·서비스명
 
@@ -50,6 +55,12 @@
 | Make | 메이크 | 노코드 자동화 도구. 일반명사 오독 우려 시 "Make(노코드 자동화 도구)" |
 | n8n | N8N, 엔에이트엔 | 항상 소문자 n |
 | Zapier | 재피어, 자피어 | |
+| Integromat | 인테그로맷 | Make의 옛 이름. 영문 고정. "Integromat → Make" 전환 서사(12장) |
+| Gemini CLI | 제미나이 CLI | 영문 고정. Google 오픈소스 도구(12장) |
+| Meta Workplace | 메타 워크플레이스, 워크플레이스 | 영문 고정. Meta 기업용 협업 도구(12장) |
+| Visual Electric | 비주얼 일렉트릭 | 영문 고정. AI 디자인 도구(Perplexity 인수)(12장) |
+| GPT-4o / GPT-5 | GPT 4o, gpt-4o | 영문 모델명 고정(12장) |
+| 아임리포트 | I'mReport, 아이엠리포트 | 한국 SaaS. 한글 고정(12장, 5장 확정 대기) |
 | 메타 광고 관리자 | Meta Ads Manager | 국내 서비스 화면 표기 따름 |
 | 구글 애즈 | Google Ads, 구글 광고 | 〃 |
 | 네이버 검색광고 | 네이버 검색 광고 | 공식 서비스명 |
@@ -59,7 +70,7 @@
 - **글로벌 기업·기관명은 영문 그대로:** Microsoft, LinkedIn, Salesforce, McKinsey, Dropbox, YouGov, Gallup, OpenAI, Anthropic, Google(기업 지칭 시), EY, AT&T, Johnson & Johnson(존슨앤드존슨 ×), Alphabet(주가·기업 문맥. "알파벳"은 문자와 혼동되므로 ×), Knight Capital, Zillow, Air Canada.
   - 예외: 국내 통용 한글 표기가 굳은 서비스명은 위 표(메타 광고 관리자, 구글 애즈, 네이버)와 유튜브(YouTube ×)를 따른다.
   - 사례 고유명: Zillow Offers(서비스명 영문), Bard(Google 챗봇, 영문), 유럽남방천문대(한글 통용 표기), 제임스 웹 우주망원경("제임스웹" ×), 브리티시컬럼비아주(붙여 쓰고 "주" 포함).
-- **법령명:** EU 인공지능법(2024년 제정), AI기본법(한국, 2026년 1월 22일 시행). 조문 인용은 "14조" 식 아라비아 숫자.
+- **법령명:** EU 인공지능법(2024년 제정), AI기본법(한국, 2026년 1월 22일 시행). 조문 인용은 "14조" 식 아라비아 숫자. GDPR(EU 개인정보 보호법)은 영문 약어, 조문은 "20조" 식 아라비아 숫자(12장 데이터 이식권).
 - **통화:** 단위는 숫자와 띄어 쓴다: "4억 4,000만 달러", "650.88 캐나다달러".
 - **인명은 한글(영문) 첫 등장 1회 병기:** 파라수라만(Parasuraman), 베인브리지(Bainbridge). 이후 한글만.
 - **보고서·조사·논문 제목은 「 」:** 「Work Trend Index」, 「State of Marketing」, 「Ironies of Automation」. 책은 『 』.
