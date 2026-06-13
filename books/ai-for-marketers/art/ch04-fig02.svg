@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+그림 4-2 | ch04-fig02
+삽입 위치: 4장 "왜 그럴듯한 오류가 더 위험한가" 절,
+  기준 문장 "AI는 유창하게 틀리도록 만들어졌고, 사람은 유창한 출력을 덜 의심하도록
+  편향돼 있다. 양쪽이 같은 방향으로 작동하니 ... 검수는 느낌이 아니라 규칙이어야 한다.
+  다음의 3원칙은 그 규칙이다." 바로 다음 (절 끝 ~ "검수의 3원칙" 절 머리).
+  (본문은 ⓐ AI가 왜 그럴듯하게 틀리나 ⓑ 사람이 왜 못 거르나 두 갈래를 따로 푼 뒤
+   하나의 결론으로 합친다. 이 그림은 그 두 갈래가 같은 방향으로 작동해 "느낌 검수"를
+   구조적으로 새게 만든다는 논증을 한눈에 고정하고, 그 처방인 3원칙이 각각 어느
+   "그럴듯하게 틀리는 자리"를 겨누는지를 곧바로 잇는다.
+   표 4-1과 비교: 표 4-1은 '명세 칸 ↔ 검수 항목'의 짝(예방-확인 대응)을 다룬다.
+   이 그림은 '왜 검수가 규칙이어야 하나(메커니즘) → 3원칙은 무엇을 겨누나(표적)'를
+   다룬다 — 대상 축이 다르다. 중복 없음.)
+캡션: 그림 4-2. 검수가 느낌으로 새는 이유와, 그것을 막는 3원칙.
+  AI는 유창하게 틀리도록 만들어졌고(유창함은 진위와 무관하다), 사람은 유창한 출력을 덜
+  의심하도록 편향돼 있다. 두 갈래가 같은 방향으로 작동하니 "읽다 이상하면 잡겠지"는
+  구조적으로 샌다. 그래서 검수는 느낌이 아니라 규칙이어야 한다 — 3원칙은 각각 AI가
+  그럴듯하게 틀리는 자리를 정확히 겨눈다.
+대체 텍스트: 두 갈래가 하나로 모이는 논증도. 왼쪽 갈래(모델 쪽)는 "AI는 유창하게
+  틀리도록 만들어졌다" — 표준 학습·평가가 모른다고 인정하기보다 그럴듯하게 찍는 것을
+  더 보상하기 때문이다(OpenAI 2025 설명, 제조사 자체 발표). 핵심 명제는 "유창함은
+  진위와 무관하다 — 매끄럽게 읽힌다는 사실은 그 숫자가 맞다는 증거가 못 된다." 오른쪽
+  갈래(사람 쪽)는 "사람은 유창한 출력을 덜 의심하도록 편향돼 있다" — 자동화 편향, 자동
+  출력을 직접 한 일보다 덜 의심하는 경향이며 누락 오류와 실행 오류로 나타난다(스키트카·
+  모지어 1990년대 정립, EU AI법 14조도 명문화). 두 갈래는 같은 방향으로 작동해 "느낌
+  검수는 구조적으로 샌다"로 모인다. 그래서 검수는 느낌이 아니라 규칙이어야 한다. 그
+  규칙이 3원칙이다. 원칙 1 숫자는 원본 대조, 표본이 아니라 전수 — 겨누는 자리는 모든
+  수치, 대표 실패는 도입의 마이너스 24%(부호 뒤집힘), 근거는 AI의 텍스트 계산이 불안정해
+  무관한 문장 한 줄에 정확도가 최대 65%까지 떨어졌다는 연구(Apple GSM-Symbolic 2024,
+  상한값·2024년 모델 기준). 원칙 2 주장에는 출처를 요구한다 — 겨누는 자리는 입력
+  데이터에 없는 외부 사실, 대표 실패는 Deloitte 가짜 인용과 Mata 가짜 판례 6건. 원칙 3
+  이름·날짜·고유명사는 전수 확인 — 겨누는 자리는 캠페인명·채널명·제품명·사람 이름·
+  날짜·금액 단위, 환각이 가장 잘 끼는 자리다. 세 원칙 모두 보고서 전체를 다시 읽으라는
+  말이 아니라, AI가 그럴듯하게 틀리는 세 자리에만 검수 시간을 몰아주라는 표적 지도다.
+수치 근거: 본문 "왜 그럴듯한 오류가 더 위험한가"·"검수의 3원칙" 절. 65%는 본문 line 47 +
+  자료카드 카드 09(Apple GSM-Symbolic, "최대 65%" 상한·2024 모델 기준 단서 동반). 마이너스
+  24%는 도입의 가상 사례. Mata 가짜 판례 6건=카드 01, Deloitte 가짜 인용=카드 02, OpenAI
+  2025 환각 설명=카드 07, 자동화 편향=카드 08(+EU AI법 14조 카드 06). 임의 수치 생성 없음.
+스타일: books/ai-for-marketers/art/style.md
+  (강조색 #D9480F는 "자동화/목표 상태/이 책이 만드는 것"용이므로, 이 책이 만드는 처방인
+   "검수는 규칙이어야 한다 → 3원칙" 결론 띠 한 곳에만 1회. 두 갈래의 위험 노드와 실패
+   사례는 잉크색으로, 가상/주석/단서는 점선·보조회색으로 — 강조색 의미 충돌 방지.)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 720" width="780" height="720" role="img" aria-labelledby="t d">
+  <title id="t">검수가 느낌으로 새는 두 갈래와, 그것을 막는 검수 3원칙</title>
+  <desc id="d">왼쪽 갈래 "AI는 유창하게 틀리도록 만들어졌다", 오른쪽 갈래 "사람은 유창한 출력을 덜 의심한다"가 "느낌 검수는 구조적으로 샌다"로 모이고, 그래서 검수는 느낌이 아니라 규칙이어야 한다는 결론으로 이어진다. 그 규칙이 숫자는 전수 대조, 주장은 출처 확인, 고유명사는 전수 확인의 3원칙이다.</desc>
+  <style>
+    text { font-family: Pretendard, 'Noto Sans KR', sans-serif; fill: #243B53; }
+    .h { font-size: 15px; font-weight: 700; }
+    .b { font-size: 13px; }
+    .n { font-size: 11px; fill: #829AB1; }
+    .nb { font-size: 11px; font-weight: 700; fill: #829AB1; }
+    .big { font-size: 28px; font-weight: 700; fill: #D9480F; }
+    .pnum { font-size: 13px; font-weight: 700; fill: #D9480F; }
+  </style>
+  <rect x="0" y="0" width="780" height="720" fill="#FFFFFF"/>
+
+  <!-- ===== 갈래 머리: 왜 그럴듯한 오류가 새는가 ===== -->
+  <!-- 왼쪽 갈래: 모델 쪽 -->
+  <rect x="30" y="24" width="335" height="120" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5" rx="4"/>
+  <text x="48" y="50" class="h">AI는 유창하게 틀리도록 만들어졌다</text>
+  <text x="48" y="74" class="b">학습·평가가 "모른다"보다 그럴듯하게</text>
+  <text x="48" y="92" class="b">찍는 것을 더 보상한다.</text>
+  <text x="48" y="116" class="b" font-weight="700">유창함은 진위와 무관하다</text>
+  <text x="48" y="134" class="n">매끄럽게 읽힘 ≠ 숫자가 맞다 (OpenAI 2025·제조사 발표)</text>
+
+  <!-- 오른쪽 갈래: 사람 쪽 -->
+  <rect x="415" y="24" width="335" height="120" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5" rx="4"/>
+  <text x="433" y="50" class="h">사람은 유창한 출력을 덜 의심한다</text>
+  <text x="433" y="74" class="b">자동 출력을 직접 한 일보다 덜 의심하는</text>
+  <text x="433" y="92" class="b">경향 = 자동화 편향.</text>
+  <text x="433" y="116" class="b" font-weight="700">누락 오류 · 실행 오류</text>
+  <text x="433" y="134" class="n">스키트카·모지어(1990s) · EU AI법 14조도 명문화</text>
+
+  <!-- 두 갈래 → 수렴 화살표 -->
+  <line x1="197" y1="144" x2="197" y2="176" stroke="#243B53" stroke-width="1.5"/>
+  <line x1="583" y1="144" x2="583" y2="176" stroke="#243B53" stroke-width="1.5"/>
+  <line x1="197" y1="176" x2="583" y2="176" stroke="#243B53" stroke-width="1.5"/>
+  <line x1="390" y1="176" x2="390" y2="198" stroke="#243B53" stroke-width="1.5"/>
+  <polygon points="390,204 386,194 394,194" fill="#243B53"/>
+
+  <!-- 수렴 노드: 느낌 검수는 샌다 -->
+  <rect x="160" y="206" width="460" height="56" fill="#FFFFFF" stroke="#243B53" stroke-width="1.5" rx="4"/>
+  <text x="390" y="232" class="h" text-anchor="middle">두 갈래가 같은 방향으로 작동한다</text>
+  <text x="390" y="252" class="b" text-anchor="middle">→ "읽다 이상하면 잡겠지"는 구조적으로 샌다</text>
+
+  <!-- 화살표 → 결론 띠 -->
+  <line x1="390" y1="262" x2="390" y2="284" stroke="#243B53" stroke-width="1.5"/>
+  <polygon points="390,290 386,280 394,280" fill="#243B53"/>
+
+  <!-- ===== 결론 띠 (강조 — 이 책이 만드는 처방, 도판당 1회) ===== -->
+  <rect x="100" y="292" width="580" height="48" fill="#FFF4E6" stroke="#D9480F" stroke-width="2" rx="4"/>
+  <text x="390" y="322" class="h" text-anchor="middle" fill="#D9480F">그래서 검수는 느낌이 아니라 규칙이어야 한다 — 그 규칙이 3원칙이다</text>
+
+  <!-- 결론 → 3원칙 분기 -->
+  <line x1="390" y1="340" x2="390" y2="356" stroke="#D9480F" stroke-width="1.5"/>
+  <line x1="160" y1="356" x2="620" y2="356" stroke="#243B53" stroke-width="1.5"/>
+  <line x1="160" y1="356" x2="160" y2="378" stroke="#243B53" stroke-width="1.5"/>
+  <line x1="390" y1="356" x2="390" y2="378" stroke="#243B53" stroke-width="1.5"/>
+  <line x1="620" y1="356" x2="620" y2="378" stroke="#243B53" stroke-width="1.5"/>
+  <polygon points="160,384 156,374 164,374" fill="#243B53"/>
+  <polygon points="390,384 386,374 394,374" fill="#243B53"/>
+  <polygon points="620,384 616,374 624,374" fill="#243B53"/>
+
+  <!-- ===== 3원칙 카드 (각 카드: x폭 230, y 386~690) ===== -->
+  <!-- 원칙 1 -->
+  <rect x="30" y="386" width="230" height="296" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5" rx="4"/>
+  <text x="46" y="410" class="pnum">원칙 1</text>
+  <text x="46" y="430" class="h">숫자는 원본 대조</text>
+  <text x="46" y="448" class="b" font-weight="700">표본이 아니라 전수</text>
+  <line x1="46" y1="458" x2="244" y2="458" stroke="#829AB1" stroke-width="1"/>
+  <text x="46" y="478" class="n">겨누는 자리</text>
+  <text x="46" y="496" class="b">보고서의 모든 수치</text>
+  <text x="46" y="514" class="b">(부호 · 자릿수 하나까지)</text>
+  <text x="46" y="540" class="n">대표 실패</text>
+  <text x="46" y="558" class="b">도입의 마이너스 24%</text>
+  <text x="46" y="576" class="b">— 부호가 뒤집혔다</text>
+  <!-- 65% 단서 박스 (점선=단서) -->
+  <rect x="46" y="592" width="198" height="76" fill="#FFFFFF" stroke="#829AB1" stroke-width="1" stroke-dasharray="4 3" rx="4"/>
+  <text x="60" y="612" class="big">65%</text>
+  <text x="118" y="612" class="n">무관한 문장 한 줄에</text>
+  <text x="118" y="626" class="n">정확도가 최대 이만큼</text>
+  <text x="118" y="640" class="n">떨어졌다(상한값)</text>
+  <text x="60" y="660" class="n">Apple GSM-Symbolic, 2024년 모델 기준</text>
+
+  <!-- 원칙 2 -->
+  <rect x="275" y="386" width="230" height="296" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5" rx="4"/>
+  <text x="291" y="410" class="pnum">원칙 2</text>
+  <text x="291" y="430" class="h">주장에는 출처를</text>
+  <text x="291" y="450" class="h">요구한다</text>
+  <line x1="291" y1="460" x2="489" y2="460" stroke="#829AB1" stroke-width="1"/>
+  <text x="291" y="480" class="n">겨누는 자리</text>
+  <text x="291" y="498" class="b">입력 데이터에 없는</text>
+  <text x="291" y="516" class="b">외부 사실 ("업계 평균",</text>
+  <text x="291" y="534" class="b">"경쟁사가…", "시즌 요인")</text>
+  <text x="291" y="560" class="n">대표 실패</text>
+  <text x="291" y="578" class="b">Deloitte 가짜 인용</text>
+  <text x="291" y="596" class="b">Mata 가짜 판례 6건</text>
+  <text x="291" y="624" class="b" font-weight="700">형식은 완벽,</text>
+  <text x="291" y="642" class="b" font-weight="700">실체는 없다</text>
+  <text x="291" y="666" class="n">근거 없는 단언은 빼거나 확인 전 보류</text>
+
+  <!-- 원칙 3 -->
+  <rect x="520" y="386" width="230" height="296" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5" rx="4"/>
+  <text x="536" y="410" class="pnum">원칙 3</text>
+  <text x="536" y="430" class="h">이름·날짜·고유명사</text>
+  <text x="536" y="450" class="h">전수 확인</text>
+  <line x1="536" y1="460" x2="734" y2="460" stroke="#829AB1" stroke-width="1"/>
+  <text x="536" y="480" class="n">겨누는 자리</text>
+  <text x="536" y="498" class="b">캠페인명 · 채널명 ·</text>
+  <text x="536" y="516" class="b">제품명 · 사람 이름 ·</text>
+  <text x="536" y="534" class="b">날짜·기간 · 금액 단위</text>
+  <text x="536" y="560" class="n">왜 여기인가</text>
+  <text x="536" y="578" class="b">환각이 가장 잘 끼는 자리.</text>
+  <text x="536" y="596" class="b">AI가 가장 자신 있게,</text>
+  <text x="536" y="614" class="b">가장 그럴듯하게 지어낸다.</text>
+  <text x="536" y="640" class="b" font-weight="700">종류가 한정 → 몇 분</text>
+  <text x="536" y="666" class="n">"여름세일_메타"→"…메타광고" 같은 치환</text>
+
+  <!-- ===== 하단 한 줄 요약 ===== -->
+  <line x1="30" y1="694" x2="750" y2="694" stroke="#829AB1" stroke-width="1"/>
+  <text x="390" y="714" class="n" text-anchor="middle">세 원칙 모두 "보고서 전체를 다시 읽으라"가 아니라, AI가 그럴듯하게 틀리는 세 자리에만 검수 시간을 몰아주는 표적 지도다. (김지유·−24%는 가상 사례)</text>
+</svg>
