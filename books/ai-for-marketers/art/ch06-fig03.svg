@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+그림 6-3 | ch06-fig03
+삽입 위치: 6장 "텍스트 초안에서 슬라이드로 — 회사 환경이 길을 가른다" 절,
+  본문에 박힌 호출 지점 [그림 6-3 | art/ch06-fig03.svg] 블록 자리(원고 line 161).
+  기준 문장은 line 147 "그래서 첫 갈림은 이것이다. 회사가 생산성 도구의 AI 기능을 켜
+  줬는가, 아닌가." 이후 갈래 ⓐ(line 149~155)와 갈래 ⓑ(line 157~159)를 길게 푼 직후.
+  (본문이 두 갈래를 여러 문단에 걸쳐 풀고, 이 그림은 '첫 갈림 = 회사가 AI 슬라이드
+   기능을 켰는가'에서 ⓐ/ⓑ로 갈리고, ⓑ가 다시 독립 도구/수동으로 갈리며, 갈래마다
+   회사 표준과의 관계(옮길 일 없음 / 다시 옮겨야 할 수 있음)가 다르다는 분기 구조를 한
+   장에 고정한다. 같은 출발에서 갈라지는 경로 구조라 표가 아니라 분기 다이어그램.
+   그림 6-1의 셋째 빈자리 '형식'을 확대한 것 — 중복 없음.)
+캡션: 그림 6-3. 슬라이드 변환의 분기 — 첫 갈림은 "회사가 AI 슬라이드 기능을 켰는가"다.
+  켰으면(ⓐ) Microsoft 365 Copilot이나 Google Workspace의 Gemini로 회사 표준 템플릿
+  안에서 채운다 — 따로 옮길 일이 없어 보고서에 가장 좋은 길이다. 안 켰으면(ⓑ) Gamma
+  같은 독립 도구를 개인이 쓰거나, 가장 단순하게는 회사 PowerPoint 표준에 손으로 옮긴다.
+  단 Gamma는 자체 디자인 체계라, 회사 보고서 표준이 빡빡한 .pptx 마스터면 결과를 다시
+  회사 템플릿에 옮겨야 할 수 있다. 주의: 페르소나(김지유)는 ChatGPT 유료 구독자이지,
+  그게 회사 Copilot 보유를 뜻하지는 않는다 — 회사 PC의 AI 슬라이드는 보통 회사가 켜
+  줘야 쓴다. 어느 갈래든 AI가 만든 슬라이드는 완성품이 아니라 검수·다듬을 초안이다.
+  (도구·기능·가격은 2026년 6월 확인 기준 · 분기마다 바뀌므로 공식 페이지에서 직접 확인.)
+대체 텍스트: 맨 위에 검수까지 끝낸 코멘트 초안(텍스트)이 출발점으로 있고, 이것을 발표용
+  슬라이드로 옮기는 길을 고른다. 첫 갈림은 마름모꼴 질문이다 — "회사가 생산성 도구의
+  AI 슬라이드 기능을 켜 줬는가?" 개인이 ChatGPT를 결제했다고 회사 PowerPoint 안에서 AI
+  슬라이드가 나오지는 않으며, 보통 회사가 유료로 도입하고 IT가 켜 줘야 쓸 수 있다.
+  '예'로 가면 갈래 ⓐ: 회사 표준 템플릿 안에서 채운다. Microsoft 환경이면 Microsoft 365
+  Copilot이 워드 문서를 입력으로 받아 슬라이드 초안을 만들고(확인일 기준 워드만 입력
+  지원, 다른 형식은 곧 지원 예정), 회사 샘플 덱이나 브랜드 키트로 회사 색·폰트를 입힌다.
+  Google 환경이면 Google Slides의 Gemini가 같은 자리로, 프롬프트나 Workspace 데이터로
+  덱을 만들고 디자인은 Gemini가 내용은 사람이 맡는다. 갈래 ⓐ는 회사 표준 안에서 채워져
+  따로 옮길 일이 없다 — 보고서에 가장 좋은 길이다. '아니오'로 가면 갈래 ⓑ: 독립 도구나
+  수동이다. Gamma 같은 독립 AI 슬라이드 도구는 회사 환경과 무관하게 개인이 쓸 수 있어
+  주제·개요·소스 파일을 넣으면 약 90초 만에 덱을 만든다(무료 플랜은 크레딧 소진형이라
+  매주 보고서엔 사실상 유료 필요 · 가격은 확인일 기준 변동). 단 Gamma는 자체 디자인
+  체계라 회사 표준 .pptx 마스터가 빡빡하면 결과를 PowerPoint로 내보낸 뒤 회사 템플릿에
+  다시 옮겨야 할 수 있다. ⓐ와 ⓑ가 둘 다 막히면 가장 단순한 길이 남는다 — 검수 끝낸
+  코멘트를 회사 PowerPoint 표준 템플릿에 손으로 붙여넣는 것. AI가 만들기를 다 한 코멘트를
+  칸에 옮기는 일이라 백지에서 짜던 것보다 훨씬 짧다. 맨 아래 한 줄은 어느 갈래든 공통이다 —
+  AI가 만든 슬라이드는 완성된 발표 자료가 아니라 검수하고 다듬을 초안이며, 그 보정은
+  사람 검수 시간에 들어간다.
+본문/자료카드 정합성: 첫 갈림 "회사가 AI 슬라이드 기능을 켰는가"는 원고 line 147. 갈래
+  ⓐ(회사 표준 안에서 채움, 옮길 일 없음) = 원고 line 149. Copilot(워드 입력 → 슬라이드
+  초안, 샘플 덱/브랜드 키트, 확인일 기준 워드만 지원)은 원고 line 151 + 자료카드 카드 01.
+  Gemini(Google Slides 슬라이드 만들기, 디자인은 Gemini·내용은 사람)는 원고 line 153 +
+  카드 02. 갈래 ⓑ(독립 도구/수동) = 원고 line 157~159. Gamma(약 90초, 무료=크레딧 소진형
+  →매주엔 유료, 자체 디자인 체계, 회사 표준 빡빡하면 다시 옮김)는 원고 line 157·159 +
+  카드 03. 수동(회사 PPT 표준에 손으로 옮기기, AI가 만들기 다 해 더 짧음)은 원고 line 159.
+  페르소나 = ChatGPT 구독자이지 회사 Copilot 보유 아님은 원고 line 147·161. "AI 슬라이드는
+  완성품 아니라 검수·다듬을 초안"은 원고 line 163·165 + 카드 07. 도구 가격 수치는 도판에
+  넣지 않음(본문 line 157이 시점과 함께 다룸·변동) — 임의 수치 생성 없음.
+페르소나 가드레일: 코드·함수 노출 없음. 도구는 제품명·역할로만 표기하고 메뉴 클릭 경로의
+  세부(리본·메뉴명)는 본문에 맡긴다(개념 분기도 우선·UI 의존 최소화, style.md 기본 방침).
+스타일: books/ai-for-marketers/art/style.md
+  (강조색 #D9480F는 "이 책이 만드는 것 / 가장 좋은 길" 의미. 본문이 "보고서에 가장 좋은
+   길"이라 못 박은 갈래 ⓐ(회사 표준 안에서 채움 — 옮길 일 없음) 한 곳에만 1회 칠한다.
+   갈래 ⓑ·수동·완성품 아님 주석은 잉크색 중립·보조회색, 갈림 질문 마름모는 잉크색.
+   강조색 1회 원칙 준수.)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" width="820" height="620" role="img" aria-labelledby="t d">
+  <title id="t">슬라이드 변환의 분기 — 회사가 AI 슬라이드 기능을 켰는가로 갈리는 길</title>
+  <desc id="d">검수 끝낸 코멘트 초안을 발표 슬라이드로 옮기는 길은 '회사가 AI 슬라이드 기능을 켰는가'에서 갈린다. 켰으면 갈래 ⓐ — Microsoft 365 Copilot이나 Google Workspace의 Gemini로 회사 표준 템플릿 안에서 채워 따로 옮길 일이 없다(가장 좋은 길). 안 켰으면 갈래 ⓑ — Gamma 같은 독립 도구(자체 디자인이라 회사 표준이 빡빡하면 다시 옮겨야 함)나 회사 PowerPoint에 수동으로 옮기기. 페르소나는 ChatGPT 구독자이지 회사 Copilot 보유자가 아닐 수 있다. 어느 갈래든 AI 슬라이드는 완성품이 아니라 검수·다듬을 초안이다.</desc>
+  <style>
+    text { font-family: Pretendard, 'Noto Sans KR', sans-serif; fill: #243B53; }
+    .h { font-size: 15px; font-weight: 700; }
+    .b { font-size: 13px; }
+    .bb { font-size: 13px; font-weight: 700; }
+    .n { font-size: 11px; fill: #829AB1; }
+    .nb { font-size: 11px; font-weight: 700; fill: #829AB1; }
+    .acc { fill: #D9480F; }
+    .yn { font-size: 12px; font-weight: 700; fill: #829AB1; }
+  </style>
+  <rect x="0" y="0" width="820" height="620" fill="#FFFFFF"/>
+
+  <!-- ===== 출발: 검수 끝낸 코멘트 초안 ===== -->
+  <rect x="285" y="28" width="250" height="50" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5" rx="4"/>
+  <text x="410" y="50" class="bb" text-anchor="middle">검수 끝낸 코멘트 초안 (텍스트)</text>
+  <text x="410" y="68" class="n" text-anchor="middle">이것을 발표용 슬라이드로 옮긴다</text>
+
+  <line x1="410" y1="78" x2="410" y2="98" stroke="#243B53" stroke-width="1.5"/>
+  <polygon points="410,104 406,94 414,94" fill="#243B53"/>
+
+  <!-- ===== 첫 갈림: 마름모 질문 ===== -->
+  <polygon points="410,108 600,158 410,208 220,158" fill="#FFFFFF" stroke="#243B53" stroke-width="1.5"/>
+  <text x="410" y="150" class="bb" text-anchor="middle">첫 갈림 — 회사가 생산성 도구의</text>
+  <text x="410" y="170" class="bb" text-anchor="middle">AI 슬라이드 기능을 켜 줬는가?</text>
+
+  <!-- 갈래 분기 라벨 -->
+  <text x="285" y="226" class="yn" text-anchor="middle">예</text>
+  <text x="540" y="226" class="yn" text-anchor="middle">아니오</text>
+
+  <!-- 질문 → ⓐ -->
+  <line x1="300" y1="180" x2="225" y2="244" stroke="#243B53" stroke-width="1.5"/>
+  <polygon points="221,248 230,242 226,234" fill="#243B53"/>
+  <!-- 질문 → ⓑ -->
+  <line x1="520" y1="180" x2="595" y2="244" stroke="#243B53" stroke-width="1.5"/>
+  <polygon points="599,248 590,242 594,234" fill="#243B53"/>
+
+  <!-- ===== 갈래 ⓐ (강조, 도판당 1회) ===== -->
+  <rect x="40" y="250" width="360" height="200" fill="#FFF4E6" stroke="#D9480F" stroke-width="2" rx="4"/>
+  <text x="60" y="276" class="h" fill="#D9480F">갈래 ⓐ — 회사 표준 안에서 채운다</text>
+  <text x="60" y="296" class="acc" font-size="11" font-weight="700">따로 옮길 일 없음 · 보고서에 가장 좋은 길</text>
+  <line x1="60" y1="306" x2="380" y2="306" stroke="#D9480F" stroke-width="1"/>
+  <text x="60" y="328" class="bb">Microsoft 365 Copilot</text>
+  <text x="60" y="348" class="n">워드 문서를 넣으면 슬라이드 초안 생성</text>
+  <text x="60" y="364" class="n">샘플 덱·브랜드 키트로 회사 색·폰트 적용</text>
+  <text x="60" y="380" class="n">(확인일 기준 입력은 워드만 · 곧 확대)</text>
+  <line x1="60" y1="392" x2="380" y2="392" stroke="#829AB1" stroke-width="1"/>
+  <text x="60" y="414" class="bb">Google Workspace의 Gemini</text>
+  <text x="60" y="434" class="n">Google Slides에서 프롬프트·데이터로 덱 생성</text>
+  <text x="60" y="450" class="n" font-weight="700" fill="#829AB1"></text>
+
+  <!-- ⓐ 설계 철학 한 줄 (박스 밖) -->
+
+  <!-- ===== 갈래 ⓑ ===== -->
+  <rect x="420" y="250" width="360" height="200" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5" rx="4"/>
+  <text x="440" y="276" class="h">갈래 ⓑ — 독립 도구나 수동</text>
+  <text x="440" y="296" class="n">회사 PC 안에서 AI가 안 돌아도 길은 있다</text>
+  <line x1="440" y1="306" x2="760" y2="306" stroke="#829AB1" stroke-width="1"/>
+  <text x="440" y="328" class="bb">Gamma (독립 도구)</text>
+  <text x="440" y="348" class="n">주제·개요·소스 파일 → 약 90초에 덱</text>
+  <text x="440" y="364" class="n">자체 디자인 체계 → 회사 표준이 빡빡하면</text>
+  <text x="440" y="380" class="n">PPT로 내보낸 뒤 회사 템플릿에 다시 옮김</text>
+  <line x1="440" y1="392" x2="760" y2="392" stroke="#829AB1" stroke-width="1"/>
+  <text x="440" y="414" class="bb">또는 수동</text>
+  <text x="440" y="434" class="n">회사 PowerPoint 표준에 손으로 옮기기</text>
+  <text x="440" y="450" class="n"></text>
+
+  <!-- ===== 페르소나 주의 (점선 주석) ===== -->
+  <rect x="40" y="468" width="740" height="48" fill="#FFFFFF" stroke="#829AB1" stroke-width="1.5" stroke-dasharray="4 3" rx="4"/>
+  <text x="60" y="490" class="nb">주의 — 페르소나(김지유)는 ChatGPT 유료 구독자이지, 그게 회사 Copilot 보유를 뜻하지는 않는다.</text>
+  <text x="60" y="508" class="n">개인이 ChatGPT를 결제했다고 회사 PowerPoint 안에서 AI 슬라이드가 나오지는 않는다 — 회사 PC의 AI는 보통 회사가 켜 줘야 쓴다.</text>
+
+  <!-- ===== 하단 공통 결론 ===== -->
+  <line x1="40" y1="534" x2="780" y2="534" stroke="#829AB1" stroke-width="1"/>
+  <text x="410" y="556" class="b" text-anchor="middle">어느 갈래든 — AI가 만든 슬라이드는 완성된 발표 자료가 아니라 검수하고 다듬을 초안이다.</text>
+  <text x="410" y="576" class="n" text-anchor="middle">디자인의 마지막 손질은 사람이 한다 · 그 보정 시간은 검수 안에 들어간다 (만들기는 도구가, 검수는 사람이)</text>
+  <text x="410" y="600" class="n" text-anchor="middle">(도구·기능·가격은 2026년 6월 확인 기준 · 분기마다 바뀌므로 쓰기 전 공식 페이지에서 직접 확인)</text>
+</svg>

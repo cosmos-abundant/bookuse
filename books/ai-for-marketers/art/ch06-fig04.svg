@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+그림 6-4 | ch06-fig04
+삽입 위치: 6장 "비포/애프터 — 월요일이 '만들기 4시간'에서 '검수'로" 절,
+  본문에 박힌 호출 지점 [그림 6-4 | art/ch06-fig04.svg] 블록 자리(원고 line 185).
+  바로 위 표(원고 line 177~184)를 그림으로 시각화한다. 기준 문장은 line 175
+  "PPT 변환을 별도 행으로 둔다 — 김지유의 4시간에 그게 들어 있었으니, 자동화 전후를
+  따로 봐야 약속의 측정 범위가 맞는다."
+  (본문 표가 다섯 행의 비포/애프터를 칸으로 보이고, 이 그림은 그 다섯 행 중 만들기 네
+   행(취합·계산·코멘트·PPT)이 '사람이 만들기'에서 '도구가 생성'으로 넘어가고, 비포에
+   없던 검수 행이 애프터에 새로 생겨 사람의 시간이 거기로 모인다는 '시간의 이동'을
+   타임라인으로 고정한다. 표는 항목별 값을, 이 그림은 시간이 만들기→검수로 옮겨가는
+   흐름을 보인다 — 역할이 달라 중복 아님. 그림 6-1의 결론 '만들기는 도구가, 검수는
+   사람이'가 시간 축에서 실현된 모습.)
+캡션: 그림 6-4. 월요일 타임라인 비포/애프터 — 시간이 사라진 게 아니라 만들기에서 검수로
+  옮겨 갔다. 취합·계산·코멘트·PPT 변환 네 행이 "사람이 만들기"에서 "도구가 생성"으로
+  넘어가고, 사람의 시간은 맨 아래 검수 한 행으로 모인다. 비포에 없던 검수 행이 애프터에
+  생긴 게 핵심이다. PPT 변환을 별도 행으로 둔 것은 측정 범위에 PPT 정리 시간이 포함됨을
+  못 박기 위해서다 — 비포의 4시간에 PPT가 들어 있었으니, 애프터의 측정에도 PPT가 들어
+  있어야 같은 자를 댄 것이다. "4시간→40분"은 확정된 사실이 아니라 목표다. 이 책 시점에
+  이 과업(취합+분석+PPT 정리)의 비포/애프터를 잰 공개 값은 없고, 실측은 아직 끝나지
+  않았다 — 확정된 것은 수치가 아니라 구조다(만들기→검수).
+  (4시간·40분은 1장에서 약속한 목표치 · 김지유는 가상 인물 · 1시간 38분은 5장 실측.)
+대체 텍스트: 왼쪽이 비포(자동화 전 월요일), 오른쪽이 애프터(5장의 자동 취합과 6장의 자동
+  생성을 다 적용한 뒤)다. 위에서 아래로 다섯 행이 있다. 첫째 행 '데이터 취합(3채널 다운
+  + 합치기)': 비포는 약 1시간 38분(5장 실측), 애프터는 0분(자동) — 플랜 B면 네이버 수동
+  약 5분. 둘째 행 '증감 계산': 비포는 사람이 직접, 애프터는 0분으로 시트 수식이 자동
+  계산. 셋째 행 '코멘트 작성(해석)': 비포는 사람이 직접, 애프터는 AI가 자동 생성. 넷째
+  행 'PPT 변환': 비포는 사람이 직접, 애프터는 AI·도구가 자동 변환하고 디자인은 사람이
+  손질. 이 네 행이 모두 '사람이 만들기'에서 '도구가 생성'으로 넘어간다. 다섯째 행
+  '검수(숫자·출처·고유명사 + 슬라이드 보정)'는 비포에는 아예 없던 행이고(검수 단계
+  없음), 애프터에 새로 생겨 위 네 행에서 떠난 사람의 시간이 모두 이 한 행으로 모인다.
+  PPT 변환을 일부러 별도 행으로 둔 것은, 비포의 4시간에 PPT 정리가 들어 있었으니
+  애프터의 측정에도 PPT가 들어 있어야 같은 자를 댄 것이기 때문이다. 도판은 비포 총합을
+  '약 4시간(만들기)'으로, 애프터 총합을 '40분(검수) — 목표'로 적되, 40분은 점선·목표
+  표기로 두어 확정된 사실이 아님을 분명히 한다. 이 과업의 비포/애프터를 잰 공개 값이
+  없고 베타 리더 실측이 아직 끝나지 않았기 때문이다. 도판의 결론은 "시간이 사라진 게
+  아니라 만들기에서 검수로 옮겨 갔다 — 확정된 것은 수치가 아니라 그 구조다"이다.
+본문/자료카드 정합성: 다섯 행과 각 칸의 비포/애프터 값(취합 1시간 38분→0분/플랜 B 5분 ·
+  증감 계산 사람→0분 시트 수식 · 코멘트 사람→AI 자동 · PPT 사람→AI·도구+디자인 손질 ·
+  검수 비포 없음→애프터에 시간 모임)은 원고 line 177~184 표와 완전 일치. 1시간 38분은
+  5장 실측(원고 line 3·179). "PPT 변환 별도 행 = 측정 범위 못 박기"는 원고 line 175·185·189.
+  "4시간→40분은 목표, 이 과업 공개 값 없음, 실측 미완"은 원고 line 187·189 + 자료카드
+  미확인 목록("4시간→40분" 공개 통계 부재). 검수 40분의 측정 범위가 취합~PPT 전체라는
+  점은 원고 line 189. AI 전반 주간 절감 6~13시간 통계는 측정 범위가 달라 이 표의 근거가
+  못 되므로 도판에 넣지 않음(원고 line 187). 임의 수치 생성 없음 — 모든 수치는 본문·5장
+  실측·1장 목표치에서만.
+페르소나 가드레일: 코드·함수 노출 없음. '시트 수식이 자동 계산'은 역할 표기일 뿐 수식
+  내용 없음. 슬라이드 도구는 'AI·도구'로 역할만 표기(제품 분기는 6-3).
+스타일: books/ai-for-marketers/art/style.md
+  (강조색 #D9480F는 "이 책이 만드는 것 / 목표 상태" 의미. 비포에 없던 새 행이자 이 책의
+   약속인 '검수 행(애프터) — 사람의 시간이 여기로 모인다' 한 곳에만 1회 칠한다. 만들기
+   네 행과 비포 값은 잉크색 중립, 애프터의 '도구가 생성' 셀은 잉크색, '40분=목표'는
+   점선=아직 확정 아닌 것으로 표시해 단정 회피. 강조색 1회 원칙 준수.)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" width="820" height="600" role="img" aria-labelledby="t d">
+  <title id="t">월요일 타임라인 비포/애프터 — 시간이 만들기에서 검수로 옮겨 간다</title>
+  <desc id="d">취합·계산·코멘트·PPT 변환 네 행이 '사람이 만들기'에서 '도구가 생성'으로 넘어가고, 비포에 없던 검수 행이 애프터에 새로 생겨 사람의 시간이 그 한 행으로 모인다. 비포 총합은 약 4시간(만들기), 애프터 총합은 40분(검수)이되 40분은 목표치이지 확정된 사실이 아니다 — 이 과업(취합+분석+PPT 정리)의 비포/애프터를 잰 공개 값이 없고 실측이 아직 끝나지 않았다. PPT 변환을 별도 행으로 둔 것은 측정 범위에 PPT 정리가 포함됨을 못 박기 위해서다. 확정된 것은 수치가 아니라 구조다 — 만들기에서 검수로.</desc>
+  <style>
+    text { font-family: Pretendard, 'Noto Sans KR', sans-serif; fill: #243B53; }
+    .h { font-size: 15px; font-weight: 700; }
+    .b { font-size: 13px; }
+    .bb { font-size: 13px; font-weight: 700; }
+    .n { font-size: 11px; fill: #829AB1; }
+    .nb { font-size: 11px; font-weight: 700; fill: #829AB1; }
+    .acc { fill: #D9480F; }
+    .big { font-size: 28px; font-weight: 700; }
+    .col { font-size: 13px; font-weight: 700; }
+  </style>
+  <rect x="0" y="0" width="820" height="600" fill="#FFFFFF"/>
+
+  <!-- ===== 열 머리 ===== -->
+  <text x="40" y="34" class="nb">단계</text>
+  <text x="365" y="34" class="col" text-anchor="middle">비포 (자동화 전)</text>
+  <text x="640" y="34" class="col" text-anchor="middle">애프터 (자동화 후)</text>
+
+  <!-- 가운데 화살표 머리: 만들기 → 도구가 생성 -->
+  <text x="502" y="34" class="n" text-anchor="middle">→</text>
+
+  <!-- 열 경계 -->
+  <line x1="240" y1="42" x2="240" y2="486" stroke="#829AB1" stroke-width="1"/>
+  <line x1="490" y1="42" x2="490" y2="486" stroke="#829AB1" stroke-width="1"/>
+
+  <!-- ===== 만들기 네 행 (취합·계산·코멘트·PPT) ===== -->
+  <!-- 행1: 데이터 취합 -->
+  <rect x="40" y="48" width="740" height="64" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5" rx="4"/>
+  <text x="56" y="76" class="bb">데이터 취합</text>
+  <text x="56" y="96" class="n">3채널 다운로드 + 합치기</text>
+  <text x="365" y="76" class="b" text-anchor="middle">약 1시간 38분</text>
+  <text x="365" y="96" class="n" text-anchor="middle">사람이 만들기 (5장 실측)</text>
+  <text x="640" y="76" class="b" text-anchor="middle">0분 (자동)</text>
+  <text x="640" y="96" class="n" text-anchor="middle">도구가 생성 · 플랜 B면 네이버 수동 약 5분</text>
+
+  <!-- 행2: 증감 계산 -->
+  <rect x="40" y="120" width="740" height="56" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5" rx="4"/>
+  <text x="56" y="146" class="bb">증감 계산</text>
+  <text x="365" y="146" class="b" text-anchor="middle">사람이 직접</text>
+  <text x="365" y="164" class="n" text-anchor="middle">사람이 만들기</text>
+  <text x="640" y="146" class="b" text-anchor="middle">0분</text>
+  <text x="640" y="164" class="n" text-anchor="middle">도구가 생성 · 시트 수식이 자동 계산</text>
+
+  <!-- 행3: 코멘트 작성 -->
+  <rect x="40" y="184" width="740" height="56" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5" rx="4"/>
+  <text x="56" y="210" class="bb">코멘트 작성 (해석)</text>
+  <text x="365" y="210" class="b" text-anchor="middle">사람이 직접</text>
+  <text x="365" y="228" class="n" text-anchor="middle">사람이 만들기</text>
+  <text x="640" y="210" class="b" text-anchor="middle">AI 자동 생성</text>
+  <text x="640" y="228" class="n" text-anchor="middle">도구가 생성</text>
+
+  <!-- 행4: PPT 변환 (별도 행 강조 주석) -->
+  <rect x="40" y="248" width="740" height="56" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5" rx="4"/>
+  <text x="56" y="274" class="bb">PPT 변환</text>
+  <text x="56" y="292" class="n">별도 행 — 측정 범위에 포함</text>
+  <text x="365" y="274" class="b" text-anchor="middle">사람이 직접</text>
+  <text x="365" y="292" class="n" text-anchor="middle">사람이 만들기</text>
+  <text x="640" y="274" class="b" text-anchor="middle">AI·도구 자동 변환</text>
+  <text x="640" y="292" class="n" text-anchor="middle">도구가 생성 (+ 디자인 손질)</text>
+
+  <!-- 네 행 → 검수 행으로 사람 시간이 모인다: 비포 칸에서 애프터 검수 칸으로 모이는 화살표 -->
+  <text x="365" y="328" class="n" text-anchor="middle">↑ 만들기 네 행이 사람 손에서 도구로 넘어가고</text>
+  <line x1="365" y1="336" x2="365" y2="356" stroke="#243B53" stroke-width="1.5"/>
+  <line x1="365" y1="356" x2="640" y2="356" stroke="#243B53" stroke-width="1.5"/>
+  <line x1="640" y1="356" x2="640" y2="378" stroke="#243B53" stroke-width="1.5"/>
+  <polygon points="640,384 636,374 644,374" fill="#243B53"/>
+  <text x="500" y="350" class="n" text-anchor="middle">사람의 시간은 아래 검수 행으로 모인다 →</text>
+
+  <!-- ===== 검수 행 (강조, 도판당 1회) — 비포 없음 / 애프터 새 행 ===== -->
+  <rect x="40" y="388" width="740" height="64" fill="#FFF4E6" stroke="#D9480F" stroke-width="2" rx="4"/>
+  <text x="56" y="416" class="bb" fill="#D9480F">검수</text>
+  <text x="56" y="436" class="n">숫자·출처·고유명사 + 슬라이드 보정</text>
+  <text x="365" y="420" class="b" text-anchor="middle">— (검수 단계 없음)</text>
+  <text x="365" y="438" class="n" text-anchor="middle">비포엔 이 행이 없었다</text>
+  <text x="640" y="420" class="bb" text-anchor="middle" fill="#D9480F">이 자리에 사람의 시간이 모인다</text>
+  <text x="640" y="438" class="n" text-anchor="middle">비포에 없던 새 행 — 만들기에서 검수로</text>
+
+  <!-- ===== 하단 총합: 약 4시간 → 40분(목표) ===== -->
+  <line x1="40" y1="470" x2="780" y2="470" stroke="#829AB1" stroke-width="1"/>
+  <text x="240" y="500" class="nb" text-anchor="middle">비포 총합</text>
+  <text x="240" y="534" class="big" text-anchor="middle">약 4시간</text>
+  <text x="240" y="556" class="n" text-anchor="middle">만들기</text>
+
+  <!-- 화살표 -->
+  <line x1="360" y1="522" x2="455" y2="522" stroke="#243B53" stroke-width="1.5"/>
+  <polygon points="461,522 451,518 451,526" fill="#243B53"/>
+
+  <!-- 애프터 총합: 40분 = 목표 (점선 박스 = 아직 확정 아님) -->
+  <rect x="500" y="488" width="280" height="86" fill="#FFFFFF" stroke="#829AB1" stroke-width="1.5" stroke-dasharray="4 3" rx="4"/>
+  <text x="640" y="510" class="nb" text-anchor="middle">애프터 총합</text>
+  <text x="640" y="540" class="big acc" text-anchor="middle">40분</text>
+  <text x="558" y="540" class="acc" font-size="13" font-weight="700">목표</text>
+  <text x="640" y="562" class="n" text-anchor="middle">검수 · 확정된 사실 아님 — 실측 미완 [확인필요]</text>
+
+  <!-- 하단 한 줄 -->
+  <line x1="40" y1="582" x2="780" y2="582" stroke="#829AB1" stroke-width="1"/>
+  <text x="410" y="596" class="n" text-anchor="middle">시간이 사라진 게 아니라 만들기에서 검수로 옮겨 갔다 — 확정된 것은 수치가 아니라 그 구조다. (4시간·40분은 1장 목표치 · 김지유는 가상 인물 · 1시간 38분은 5장 실측)</text>
+</svg>
