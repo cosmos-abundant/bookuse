@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+그림 12-2 | ch12-fig02
+삽입 위치: 12장 "낡는 순서 — 무엇이 먼저 무너지는가" 절,
+  본문에 명시된 호출 지점 [그림 12-2 | art/ch12-fig02.svg] 블록 자리(원고 line 51).
+  4단계 사례는 그 앞 본문(원고 line 35~49)에서 단계마다 따로 서술된다.
+  본문 글이 각 단계의 메커니즘을 풀고, 이 그림은 네 단계를 하나의 타임라인 위에 올려
+  "빈도는 앞으로 갈수록 높고, 충격은 뒤로 갈수록 크다"는 역상관 한 가지만 한눈에 고정한다 —
+  서술 중복 없음.
+캡션: 그림 12-2. 낡는 순서 — 무엇이 먼저 무너지는가.
+  도구는 한꺼번에 죽지 않고 단계를 밟아 낡는다. UI(가장 잦고 가장 가벼움) → 가격·플랜 →
+  기능 → 도구 자체의 존속(가장 드물지만 가장 치명적) 순이다. 앞 단계일수록 자주 일어나고
+  충격이 작으며, 뒤로 갈수록 드물지만 치명적이다. 마지막 단계에서 충격의 크기를 결정하는 건
+  죽음 자체가 아니라 내가 데이터를 빼낼 수 있느냐다.
+대체 텍스트: 왼쪽에서 오른쪽으로 흐르는 4단계 타임라인. 위로 갈수록 빈도가 높고 아래
+  단계로 갈수록 충격이 크다는 역상관을 화살표 두 개로 표시한다.
+  1단계 UI가 바뀐다 — 가장 잦고 가장 가벼운 고장. 버튼 위치·메뉴 이름·화면 구성이
+  개편되어 클릭 경로만 달라지고 도구는 같은 일을 한다. 실명 사례: 2022년 2월 22일
+  Integromat이 Make로 리브랜딩(make.com 이전), 1년 같은 가격 이전 창을 줬으나 화면 전면
+  개편으로 기존 화면 캡처·클릭 설명이 한 번에 무효, 구 브랜드 지원은 2023년 종료.
+  충격: 작다(동작 개념만 알면 새 화면에서 다시 찾으면 된다).
+  2단계 가격·플랜이 바뀐다 — UI보다 덜 잦지만 더 아프다. 같은 일에 청구서가 달라진다.
+  실명 사례: Zapier가 작업(task) 단위 과금에서 불만 누적 후 가격 구조 개편(인상이 아니라
+  제한 폐지·유틸 무료화 등 사용자에게 유리한 방향이었다 — 가격 변경이 늘 인상은 아니다).
+  더불어 2026년 6월 Google이 무료·개인 사용자에게 Gemini CLI를 중단(유료 조직은 유지) —
+  무료 플랜이 가장 먼저 끊긴다. 충격: 중간(내 실제 사용량 기준으로 다시 계산하면 된다).
+  3단계 기능이 빠진다 — 도구는 살아 있는데 쓰던 그 기능이 없어진다. 모델 교체(출력은
+  나오는데 머리가 바뀐 경우)가 한 형태. 실명 사례: 프리뷰 모델은 2주 통지로도 꺼질 수
+  있다(OpenAI) — "프리뷰"는 "언제 사라져도 항의할 수 없다"는 뜻. 충격: 큼(프리뷰·베타에
+  핵심 시스템을 걸어 두면 위험).
+  4단계 도구 자체가 사라진다 — 가장 드물지만 가장 치명적. 회사가 접거나 인수당해 제품이
+  닫힌다. 실명 사례: 2025년 10월 AI 디자인 도구 Visual Electric 팀이 Perplexity에 인수된 뒤
+  90일 만에 제품 종료(데이터 내보내기·구독료 환불 제공). Meta는 기업용 협업 도구 Workplace를
+  종료하며 9개월 데이터 백업 창 제공(정상 작동 → 읽기 전용 다운로드 → 완전 삭제). 충격:
+  치명적. 다만 "잘 죽은" 도구는 데이터를 빼낼 창을 준다 — Visual Electric 90일, Meta
+  Workplace 9개월. 그래서 충격의 크기를 결정하는 건 죽음 자체가 아니라 내가 데이터를
+  빼낼 수 있느냐다. 데이터를 빼낼 수 있으면 이사고, 못 빼면 화재다.
+본문/자료카드 정합성: 4단계 순서·사례·날짜는 원고 line 35~51, 자료카드 카드 09(Integromat→
+  Make 2022-02-22·지원 2023 종료), 카드 08(Zapier task 과금 개편·유리한 방향), 카드 07
+  (Gemini CLI 2026년 6월 무료 중단·유료 유지), 카드 02(프리뷰 2주 통지), 카드 06(Visual
+  Electric 2025-10 Perplexity 인수·90일 종료·데이터 내보내기·환불), 카드 05(Meta Workplace
+  9개월 백업 창)와 완전 일치. 충격 크기(작다/중간/큼/치명적)는 본문 "앞 단계일수록 자주·충격
+  작고, 뒤로 갈수록 드물지만 치명적"(line 35)의 서술적 라벨이며 임의 수치 아님. 날짜는 모두
+  본문·카드 표기 그대로(임의 생성·반올림 없음).
+스타일: books/ai-for-marketers/art/style.md
+  (강조색 #D9480F는 "목표 상태/이 책의 핵심" 의미. 여기서는 4단계 중 본문이 "가장 치명적"
+   이라 못 박고 이 장 다음 절로 이어지는 핵심 결론을 품은 4단계(도구 존속) + 그 결론 띠
+   한 묶음에만 강조 면을 1회 칠한다. 1~3단계는 잉크색 중립, 데이터 빼낼 창(90일/9개월)은
+   보조회색 주석으로 — 강조색 1회 원칙 준수. "프리뷰"·날짜 단서는 보조회색.)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" width="820" height="560" role="img" aria-labelledby="t d">
+  <title id="t">낡는 순서 4단계 타임라인 — UI에서 도구 존속까지</title>
+  <desc id="d">도구는 UI → 가격·플랜 → 기능 → 도구 존속의 순서로 낡는다. 앞 단계일수록 자주 일어나고 충격이 작으며(Integromat→Make 2022, Zapier·Gemini CLI 2026년 6월), 뒤로 갈수록 드물지만 치명적이다(프리뷰 모델 2주 통지, Visual Electric 90일·Meta Workplace 9개월 후 종료). 충격의 크기를 결정하는 건 죽음 자체가 아니라 데이터를 빼낼 수 있느냐다.</desc>
+  <style>
+    text { font-family: Pretendard, 'Noto Sans KR', sans-serif; fill: #243B53; }
+    .h { font-size: 15px; font-weight: 700; }
+    .b { font-size: 13px; }
+    .bb { font-size: 13px; font-weight: 700; }
+    .n { font-size: 11px; fill: #829AB1; }
+    .nb { font-size: 11px; font-weight: 700; fill: #829AB1; }
+    .stage { font-size: 13px; font-weight: 700; fill: #829AB1; }
+    .acc { fill: #D9480F; }
+  </style>
+  <rect x="0" y="0" width="820" height="560" fill="#FFFFFF"/>
+
+  <!-- 상단 빈도 화살표: 앞으로 갈수록 잦다 -->
+  <text x="30" y="40" class="nb">빈도 — 앞 단계일수록 자주 일어난다</text>
+  <line x1="40" y1="52" x2="780" y2="52" stroke="#829AB1" stroke-width="1.5"/>
+  <polygon points="40,52 50,48 50,56" fill="#829AB1"/>
+
+  <!-- 타임라인 기준선 -->
+  <line x1="40" y1="300" x2="790" y2="300" stroke="#243B53" stroke-width="1.5"/>
+  <polygon points="790,300 780,296 780,304" fill="#243B53"/>
+  <text x="700" y="320" class="n">시간 →</text>
+
+  <!-- ===== 1단계 UI ===== -->
+  <circle cx="135" cy="300" r="6" fill="#243B53"/>
+  <text x="62" y="86" class="stage">1단계</text>
+  <rect x="40" y="92" width="190" height="150" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5" rx="4"/>
+  <text x="56" y="116" class="h">UI가 바뀐다</text>
+  <text x="56" y="138" class="n">버튼·메뉴·화면 구성 개편</text>
+  <text x="56" y="154" class="n">— 클릭 경로만 달라짐</text>
+  <line x1="56" y1="166" x2="214" y2="166" stroke="#829AB1" stroke-width="1"/>
+  <text x="56" y="186" class="bb">Integromat → Make</text>
+  <text x="56" y="204" class="n">2022.2.22 리브랜딩</text>
+  <text x="56" y="220" class="n">구 브랜드 지원 2023 종료</text>
+  <text x="56" y="236" class="n">화면 캡처·클릭 설명 무효</text>
+  <text x="135" y="338" class="bb" text-anchor="middle">충격: 작다</text>
+
+  <!-- ===== 2단계 가격/플랜 ===== -->
+  <circle cx="325" cy="300" r="6" fill="#243B53"/>
+  <text x="252" y="86" class="stage">2단계</text>
+  <rect x="240" y="92" width="190" height="150" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5" rx="4"/>
+  <text x="256" y="116" class="h">가격 · 플랜이 바뀐다</text>
+  <text x="256" y="138" class="n">같은 일에 청구서가 달라짐</text>
+  <text x="256" y="154" class="n">(인상만은 아니다)</text>
+  <line x1="256" y1="166" x2="414" y2="166" stroke="#829AB1" stroke-width="1"/>
+  <text x="256" y="186" class="bb">Zapier</text>
+  <text x="256" y="204" class="n">작업(task) 과금 → 구조 개편</text>
+  <text x="256" y="222" class="bb">Gemini CLI</text>
+  <text x="256" y="238" class="n">2026.6 무료 중단·유료 유지</text>
+  <text x="325" y="338" class="bb" text-anchor="middle">충격: 중간</text>
+
+  <!-- ===== 3단계 기능 ===== -->
+  <circle cx="515" cy="300" r="6" fill="#243B53"/>
+  <text x="442" y="86" class="stage">3단계</text>
+  <rect x="430" y="92" width="190" height="150" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5" rx="4"/>
+  <text x="446" y="116" class="h">기능이 빠진다</text>
+  <text x="446" y="138" class="n">살아 있는데 쓰던 기능이</text>
+  <text x="446" y="154" class="n">없어짐 (모델 교체 포함)</text>
+  <line x1="446" y1="166" x2="604" y2="166" stroke="#829AB1" stroke-width="1"/>
+  <text x="446" y="186" class="bb">프리뷰 모델</text>
+  <text x="446" y="204" class="n">2주 통지로도 꺼질 수 있다</text>
+  <text x="446" y="222" class="n">"프리뷰" = 언제 사라져도</text>
+  <text x="446" y="238" class="n">항의할 수 없다</text>
+  <text x="515" y="338" class="bb" text-anchor="middle">충격: 큼</text>
+
+  <!-- ===== 4단계 도구 존속 (강조) ===== -->
+  <circle cx="705" cy="300" r="6" fill="#D9480F"/>
+  <text x="632" y="86" class="stage acc">4단계</text>
+  <rect x="620" y="92" width="190" height="150" fill="#FFF4E6" stroke="#D9480F" stroke-width="2" rx="4"/>
+  <text x="636" y="116" class="h acc">도구 자체가 사라진다</text>
+  <text x="636" y="138" class="n">회사가 접거나 인수당해</text>
+  <text x="636" y="154" class="n">제품이 닫힘</text>
+  <line x1="636" y1="166" x2="794" y2="166" stroke="#D9480F" stroke-width="1"/>
+  <text x="636" y="186" class="bb">Visual Electric</text>
+  <text x="636" y="204" class="n">2025.10 인수 → 90일 후 종료</text>
+  <text x="636" y="222" class="bb">Meta Workplace</text>
+  <text x="636" y="238" class="n">9개월 백업 창 후 종료</text>
+  <text x="705" y="338" class="bb acc" text-anchor="middle">충격: 치명적</text>
+
+  <!-- 하단 충격 화살표: 뒤로 갈수록 커진다 -->
+  <line x1="40" y1="372" x2="780" y2="372" stroke="#829AB1" stroke-width="1.5"/>
+  <polygon points="780,372 770,368 770,376" fill="#829AB1"/>
+  <text x="500" y="392" class="nb">충격 — 뒤 단계일수록 드물지만 치명적이다</text>
+
+  <!-- "잘 죽은 도구는 빼낼 창을 준다" 주석 (보조회색) -->
+  <text x="40" y="424" class="n">"잘 죽은" 도구는 데이터를 빼낼 창을 준다 — Visual Electric 90일, Meta Workplace 9개월.</text>
+
+  <!-- ===== 하단 결론 띠 (강조 — 4단계 결론과 한 묶음, 도판당 1회 소진) ===== -->
+  <rect x="40" y="440" width="740" height="80" fill="#FFF4E6" stroke="#D9480F" stroke-width="2" rx="4"/>
+  <text x="410" y="472" class="h" text-anchor="middle" fill="#D9480F">충격의 크기를 결정하는 건 죽음 자체가 아니라, 내가 데이터를 빼낼 수 있느냐다</text>
+  <text x="410" y="500" class="b" text-anchor="middle">데이터를 빼낼 수 있으면 이사고, 못 빼면 화재다.</text>
+
+  <text x="40" y="544" class="n">날짜·사례는 본문(원고 line 35~51) 및 자료카드 ch12 카드 05~09와 일치. 충격 크기는 본문 서술 라벨(임의 수치 아님).</text>
+</svg>
