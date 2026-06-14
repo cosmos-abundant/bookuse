@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  그림 5-2 | ch05-fig02
+  삽입 위치: 5장 "기준 시점의 마술: 무엇과 견준 숫자인가" 절. 기준 문장 "&quot;+20%&quot;는
+    호황의 숫자가 아니라 바닥을 딛고 튀어 오른 반등의 숫자였던 것이다."(31행) 다음.
+    29~33행(인도 2021 GDP +20%가 1년 전 ~24% 폭락한 바닥 대비라 부푼 것이고, 그래도
+    코로나 이전보다 ~9% 낮음)의 직관을 한 장으로. 어디를 출발점으로 잡느냐가 같은 변화를
+    "사상 최대 성장"으로도 "아직 회복 못 함"으로도 보이게 한다는 직관만.
+  캡션: 그림 5-2. 같은 자리도 어디서부터 견주느냐에 따라 폭등으로도, 미회복으로도 보인다.
+    숫자는 바닥까지 떨어졌다가 다시 올라왔다. 떨어진 바로 그 바닥에서부터 견주면 같은
+    회복이 "사상 최대 +○○%"로 부풀고, 떨어지기 전 평소 자리에서부터 견주면 같은 자리가
+    "아직 그만큼 못 미친다"가 된다. 증감률은 늘 무엇인가와 견준 숫자이고, 그 견준 출발점이
+    정상이 아니었으면 증감률도 정상이 아니다. 그래서 되묻는다: "왜 그 기간인가요?"
+  대체 텍스트(접근성): 한 숫자가 시간에 따라 평소 자리에서 바닥까지 뚝 떨어졌다가 다시
+    위로 올라오는 모습을, 축·눈금·숫자 없이 점선 길로만 그린 개념 그림. 길은 왼쪽 위의
+    '떨어지기 전 평소 자리'에서 시작해 가운데 아래의 '바닥'까지 내려갔다가, 오른쪽으로
+    가며 '지금 자리'까지 다시 올라온다. 그런데 '지금 자리'는 '평소 자리'보다 아직 조금
+    낮다. 같은 '지금 자리'를 두고 두 개의 다른 출발점에서 화살표가 그어진다. 하나는
+    '바닥'에서 '지금 자리'로 올라오는 화살표인데, 바닥이 워낙 깊어 이 화살표는 길고 가팔라
+    "사상 최대 성장처럼 보인다"는 라벨이 붙는다. 다른 하나는 '평소 자리'에서 '지금 자리'로
+    가는 화살표인데, 지금 자리가 평소보다 아직 낮아 이 화살표는 살짝 내려가며 "평소엔
+    아직 못 미친다"는 라벨이 붙는다. 두 화살표가 가리키는 끝점('지금 자리')은 똑같은데,
+    출발점만 다르다. 핵심 직관은 하나다 — 같은 자리도 깊은 바닥에서 견주면 폭등으로,
+    평소 자리에서 견주면 미회복으로 보인다. 그러니 봐야 할 건 퍼센트가 아니라 그 퍼센트가
+    어디서부터 견준 것인지다. 그래서 되묻는다: "왜 그 기간인가요?" 숫자도 축 눈금도
+    통계 기호도 없다.
+  무결성/특칙 점검: 이 그림은 데이터 차트가 아니라 '출발점에 따라 같은 변화가 다르게
+    보인다'는 개념 그림이다. 세로축·가로축·눈금·수치·통계 기호·막대를 일절 넣지 않아
+    style.md §1·§4·§6의 "통계 기호·수식·축 절단 그래프 배제, 본문이 비판하는 왜곡 차트를
+    흉내조차 내지 않는다" 특칙을 충족한다. 본문이 비판하는 함정의 핵심이 "기준 시점(출발점)
+    체리피킹"이므로, 도판은 출발점만 두 개 보여 줄 뿐 어떤 절대 수치도 주장하지 않는다.
+    위아래 위치는 '높다/낮다'의 상대 인상일 뿐 눈금이 아니며(그래서 격자·축 라벨 없음),
+    인도 +20%·-24%·-9% 같은 본문 수치는 일절 노출하지 않는다(특칙: 정밀 수치·축 배제).
+    임의 수치 0개. 본문 수치 미등장 → 수치 불일치 없음. ch03-fig02(축·기호 0 분포 개념
+    그림)의 검증된 선례를 그대로 따른다.
+  강조색: STOP_Q(되묻기 한 줄 "왜 그 기간인가요?")에 1회. 이 책 강조색 #2B6CB0은 '검문·
+    되묻기 행위'에만 쓰며, 이 그림은 그림 5-1과 달리 검문 행위(되묻기 한 줄)를 직접 담으므로
+    그 한 줄에만 강조를 준다. 두 출발점·두 화살표·'지금 자리' 등 개념 요소는 잉크+보조
+    회색만으로 그려 강조색 의미를 흐리지 않는다(도판당 1회 원칙 준수). ch03-fig02·ch04-fig02는
+    검문 노드가 없어 강조 0회였으나, 이 그림은 본문 31~33행이 끝을 "그래서 되묻는다"로
+    맺으므로 그 되묻기를 강조로 회수했다.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-labelledby="t d">
+  <title id="t">같은 자리도 어디서부터 견주느냐에 따라 폭등으로도, 미회복으로도 보인다</title>
+  <desc id="d">한 숫자가 평소 자리에서 바닥까지 떨어졌다가 다시 '지금 자리'로 올라온다. 깊은 바닥에서 견주면 같은 회복이 사상 최대 성장처럼 보이고, 평소 자리에서 견주면 같은 자리가 아직 못 미친 것으로 보인다. 출발점만 다를 뿐 끝점은 같다. 축·눈금·수치·통계 기호 없음.</desc>
+
+  <rect x="0" y="0" width="720" height="400" fill="#FFFFFF"/>
+
+  <!-- 상단 한 줄 메시지 -->
+  <text x="360" y="36" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="15" font-weight="bold" fill="#243B53">같은 자리도 어디서부터 견주느냐에 따라 다르게 보인다</text>
+  <text x="360" y="56" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">아래위 높낮이는 '높다/낮다'의 인상일 뿐, 눈금이 아니다 (축·숫자 없음)</text>
+
+  <!-- 평소 자리 기준선 (눈금 아님, '예전 평소 높이'를 눈으로 비교하기 위한 옅은 안내선) -->
+  <line x1="96" y1="150" x2="648" y2="150" stroke="#829AB1" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="648" y="144" text-anchor="end" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">떨어지기 전 평소 높이</text>
+
+  <!-- 떨어졌다 올라오는 길 (점선 길: 시간 흐름의 궤적, 데이터 선이 아님) -->
+  <!-- 평소 자리(좌상) → 바닥(중하) → 지금 자리(우, 평소보다 살짝 낮음) -->
+  <polyline points="150,150 200,160 300,300 400,300 500,210 560,182"
+            fill="none" stroke="#243B53" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- 평소 자리 점 -->
+  <circle cx="150" cy="150" r="6" fill="#243B53"/>
+  <g>
+    <rect x="86" y="96" width="128" height="44" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+    <text x="150" y="114" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">평소 자리</text>
+    <text x="150" y="132" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">떨어지기 전</text>
+  </g>
+
+  <!-- 바닥 점 -->
+  <circle cx="350" cy="300" r="6" fill="#243B53"/>
+  <g>
+    <rect x="286" y="312" width="128" height="44" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+    <text x="350" y="330" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">바닥</text>
+    <text x="350" y="348" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">크게 떨어진 그때</text>
+  </g>
+
+  <!-- 지금 자리 점 (평소보다 살짝 낮음) -->
+  <circle cx="560" cy="182" r="6" fill="#243B53"/>
+  <g>
+    <rect x="572" y="160" width="120" height="44" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+    <text x="632" y="178" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">지금 자리</text>
+    <text x="632" y="196" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">평소엔 아직 못 미침</text>
+  </g>
+
+  <!-- 화살표 정의 -->
+  <defs>
+    <marker id="arrInk" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#243B53"/>
+    </marker>
+    <marker id="arrGray" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#829AB1"/>
+    </marker>
+  </defs>
+
+  <!-- 견주기 ① 바닥 → 지금 자리: 길고 가파른 화살표 → "사상 최대처럼 보인다" -->
+  <line x1="350" y1="294" x2="554" y2="188" stroke="#243B53" stroke-width="2" marker-end="url(#arrInk)"/>
+  <g>
+    <rect x="356" y="236" width="168" height="30" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+    <text x="440" y="256" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">바닥에서 견주면 → 폭등</text>
+  </g>
+
+  <!-- 견주기 ② 평소 자리 → 지금 자리: 살짝 내려가는 화살표 → "아직 못 미친다" -->
+  <line x1="166" y1="152" x2="552" y2="180" stroke="#829AB1" stroke-width="1.5" stroke-dasharray="2 3" marker-end="url(#arrGray)"/>
+  <text x="300" y="138" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">평소 자리에서 견주면 → 아직 못 미침</text>
+
+  <!-- 되묻기 한 줄 (강조 1회) -->
+  <g>
+    <rect x="206" y="368" width="308" height="28" rx="4" fill="#EBF4FB" stroke="#2B6CB0" stroke-width="2"/>
+    <text x="360" y="387" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">되묻기 — &quot;왜 그 기간인가요?&quot;</text>
+  </g>
+</svg>
