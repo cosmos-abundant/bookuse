@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  그림 7-2 | ch07-fig02  (★ 7장 한정 예외 도판 — style.md §6-1)
+  삽입 위치: 7장 "세로만이 아니다: 가로축의 순서도 거짓을 만든다" 절. 기준 문장 "카운티
+    순서도 날마다 바꿔서 눈으로 따라가기 더 어렵게 했다."(31행) 다음에 본문이 [그림 7-2]
+    자리를 표시(33행). 같은 확진자 데이터를 (위) 날짜 시간순으로 늘어놓아 들쭉날쭉한 실제
+    추이 vs (아래) 날짜를 "많은 순"으로 정렬해 만들어진 가짜 하락 곡선으로 대비.
+  캡션: 그림 7-2. 같은 확진자 데이터, 가로축만 다르게 — 위는 날짜를 시간순(왼쪽이 과거,
+    오른쪽이 최근)으로 늘어놓아, 실제로는 줄지도 늘지도 않고 들쭉날쭉한 추이를 보인다.
+    아래는 똑같은 날짜들을 "확진자 많은 순"으로 줄 세워, 큰 값부터 작은 값으로 정렬했을
+    뿐인데 "2주 내내 꾸준히 감소"라는 없던 추세가 만들어진다. 막대의 높이(확진자 수)는
+    완전히 똑같고, 바뀐 건 가로축에 날짜를 늘어놓은 순서뿐이다. 시간 추이 차트를 받으면
+    세로 눈금만이 아니라 가로축이 제대로 시간순인지도 본다. 그래서 되묻는다: "같은 척도로
+    비교한 건가요?" — 같은 간격으로 시간순으로 잰 게 맞는가. (아래가 함정, 위가 정직.)
+    출처: 2020년 미국 조지아주 보건당국 코로나 확진자 차트 사례(가로축 날짜를 값 순으로
+    배열), Atlanta Journal-Constitution · Columbia Climate Law.
+  대체 텍스트(접근성): 똑같은 다섯 날의 확진자 데이터를 두 막대그래프로 위아래에 그려,
+    가로축에 날짜를 늘어놓은 순서 하나가 추세 인상을 어떻게 바꾸는지 대비한 그림. 위쪽은
+    정직한 버전이다 — 가로축에 날짜를 시간순으로(왼쪽이 이른 날, 오른쪽이 늦은 날) 늘어
+    놓았다. 막대 높이는 올랐다 내렸다 다시 오르며 들쭉날쭉해, 2주 동안 뚜렷한 증가도 감소도
+    없는 실제 추이를 보인다. 아래쪽은 함정 버전이다 — 똑같은 다섯 날을 시간순이 아니라
+    "확진자 많은 순"으로 줄 세웠다. 가장 많았던 날이 맨 왼쪽, 가장 적었던 날이 맨 오른쪽에
+    오니, 막대는 왼쪽에서 오른쪽으로 갈수록 계단처럼 차곡차곡 낮아진다. 그러면 시간이
+    흐르며 줄어든 것도 아닌데 "꾸준한 감소"라는 매끈한 하락 곡선이 만들어진다. 아래쪽에는
+    경고 라벨이 붙는다 — "함정: 가로축이 시간순이 아니라 확진자 많은 순". 두 그림의 막대
+    높이(확진자 수)는 완전히 똑같고, 바뀐 건 날짜를 늘어놓은 순서뿐이다. 핵심은 이것이다 —
+    가로축은 잘리지 않고도, 순서를 바꾸는 것만으로 없던 추세를 만들 수 있다. 그래서 시간
+    추이 차트를 받으면 가로축이 제대로 시간순으로 늘어서 있는지도 봐야 한다. 이것은 2020년
+    봄 미국 조지아주 보건당국이 봉쇄 완화를 앞두고 올린 확진자 차트의 구조다.
+  ★ 7장 예외(style.md §6-1) 준수: ① 나쁜 예(아래)에 경고 라벨 "함정: 가로축이 시간순이
+    아니라 확진자 많은 순"을 명시. ② 정직 버전(시간순, 위)을 짝으로 함께 제시(before/after).
+    ③ 함정 시연용 도판 — 위(정직)는 시간순 원칙을 지킨다. 강조색 #2B6CB0은 왜곡 쪽이 아니라
+    되묻기 한 줄에만(아래 참조). 수치 무결성: 자료카드 10에는 일별 확진자 수치가 없으므로
+    막대에 절대 수치 라벨을 붙이지 않는다 — 높이는 "들쭉날쭉 vs 차곡차곡 낮아짐"의 상대
+    인상일 뿐 눈금이 아니다(상단에 명시). 다섯 막대의 높이 집합은 위/아래가 완전히 동일하며
+    (같은 데이터, 순서만 다름), 순서 조작이라는 본문 33행의 메커니즘만 보인다. 임의 수치 0개.
+  강조색(#2B6CB0): 되묻기 한 줄("같은 척도로 비교한 건가요?")에 1회. 왜곡(아래)·정직(위)
+    막대에는 강조색 0 — 강조색은 검문 행위에만(§6-1·§1). 경고 라벨은 회색 점선.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 556" width="720" height="556" role="img" aria-labelledby="t d">
+  <title id="t">같은 확진자 데이터도, 가로축을 시간순이 아니라 많은 순으로 줄 세우면 없던 감소 추세가 만들어진다</title>
+  <desc id="d">위는 날짜를 시간순으로 늘어놓아 들쭉날쭉한 실제 추이를, 아래는 똑같은 날짜를 확진자 많은 순으로 정렬해 차곡차곡 낮아지는 가짜 하락 곡선을 보인다. 막대 높이는 똑같고 바뀐 건 가로축 순서뿐이다. 아래가 함정.</desc>
+
+  <rect x="0" y="0" width="720" height="556" fill="#FFFFFF"/>
+
+  <!-- 상단 한 줄 메시지 -->
+  <text x="360" y="32" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="15" font-weight="bold" fill="#243B53">같은 확진자 데이터, 가로축 순서만 다르게 — 바뀐 건 날짜를 늘어놓은 순서뿐</text>
+  <text x="360" y="52" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">막대 높이는 위·아래가 똑같다. 높이는 확진자 '많고 적음'의 인상일 뿐 (절대 수치 라벨 없음)</text>
+
+  <!-- ===== 위: 정직 버전 (시간순) ===== -->
+  <text x="100" y="86" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">정직 — 가로축이 시간순 (왼쪽이 과거 → 오른쪽이 최근)</text>
+  <!-- 기준선 -->
+  <line x1="100" y1="220" x2="620" y2="220" stroke="#829AB1" stroke-width="1.5"/>
+  <!-- 막대 5개: 시간순이라 들쭉날쭉. 높이 집합 {110,150,90,130,70} (1일~5일) -->
+  <rect x="120" y="110" width="70" height="110" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <rect x="220" y="70"  width="70" height="150" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <rect x="320" y="130" width="70" height="90"  rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <rect x="420" y="90"  width="70" height="130" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <rect x="520" y="150" width="70" height="70"  rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <!-- 날짜 라벨 (시간순) -->
+  <text x="155" y="238" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">1일</text>
+  <text x="255" y="238" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">2일</text>
+  <text x="355" y="238" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">3일</text>
+  <text x="455" y="238" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">4일</text>
+  <text x="555" y="238" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">5일</text>
+  <text x="360" y="262" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">올랐다 내렸다 — 뚜렷한 증가도 감소도 없는 실제 추이</text>
+
+  <!-- 구분선 -->
+  <line x1="60" y1="290" x2="660" y2="290" stroke="#829AB1" stroke-width="1" stroke-dasharray="2 3"/>
+
+  <!-- ===== 아래: 함정 버전 (많은 순) ===== -->
+  <text x="100" y="328" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">함정 — 가로축을 "확진자 많은 순"으로 줄 세움</text>
+  <!-- 기준선 -->
+  <line x1="100" y1="460" x2="620" y2="460" stroke="#829AB1" stroke-width="1.5"/>
+  <!-- 같은 높이 집합 {150,130,110,90,70} 을 큰 순서로 정렬 → 차곡차곡 낮아짐 -->
+  <rect x="120" y="310" width="70" height="150" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <rect x="220" y="330" width="70" height="130" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <rect x="320" y="350" width="70" height="110" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <rect x="420" y="370" width="70" height="90"  rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <rect x="520" y="390" width="70" height="70"  rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <!-- 날짜 라벨 (값 순으로 뒤섞임) -->
+  <text x="155" y="478" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">2일</text>
+  <text x="255" y="478" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">4일</text>
+  <text x="355" y="478" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">1일</text>
+  <text x="455" y="478" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">3일</text>
+  <text x="555" y="478" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">5일</text>
+  <!-- 가짜 하락 안내 점선 (막대 윗변을 잇는 매끄러운 내리막) -->
+  <polyline points="155,310 255,330 355,350 455,370 555,390" fill="none" stroke="#829AB1" stroke-width="1" stroke-dasharray="5 4"/>
+
+  <!-- 경고 라벨 (회색 점선) -->
+  <rect x="100" y="490" width="520" height="24" rx="4" fill="#FFFFFF" stroke="#829AB1" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="360" y="507" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">함정: 가로축이 시간순이 아니라 "확진자 많은 순" — 정렬했을 뿐인데 "꾸준한 감소"가 만들어진다</text>
+
+  <!-- 되묻기 한 줄 (강조 1회) — 하단 중앙 -->
+  <rect x="206" y="524" width="308" height="26" rx="4" fill="#EBF4FB" stroke="#2B6CB0" stroke-width="2"/>
+  <text x="360" y="541" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">되묻기 — "같은 척도로 비교한 건가요?"</text>
+</svg>
