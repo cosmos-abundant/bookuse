@@ -1,0 +1,69 @@
+---
+config:
+  theme: base
+  themeVariables:
+    fontFamily: "Pretendard, 'Noto Sans KR', sans-serif"
+    fontSize: "13px"
+    primaryColor: "#F0F4F8"
+    primaryTextColor: "#243B53"
+    primaryBorderColor: "#243B53"
+    lineColor: "#243B53"
+    secondaryColor: "#FFFFFF"
+    tertiaryColor: "#EBF4FB"
+  flowchart:
+    curve: linear
+---
+%% 그림 2-1 | ch02-fig01
+%% 삽입 위치: 2장 "이것이 2부 전체의 토대다" 절.
+%%   기준 문장 "출처·정의·범위. 이 세 가지는 따로 떨어진 항목이 아니라
+%%   '이 숫자는 어떻게 태어났나'라는 하나의 질문을 세 방향에서 본 것이다.
+%%   누가 만들었나, 무엇을 셌나, 무엇을 빼고 골랐나."(59행) 다음.
+%%   본문이 셋을 한 질문의 세 방향으로 묶는 대목에서, 세 절(31~55행)을 한 장으로
+%%   정리하고 실행 과제(73~79행)의 "세 칸"과 같은 모양으로 보여 준다.
+%% 캡션: 그림 2-1. "이 숫자는 어떻게 태어났나" — 모든 되묻기의 뿌리 하나가
+%%   출처·정의·범위 세 방향으로 뻗는다. 회의에서 숫자를 받으면 머릿속에 이 세 칸을
+%%   긋는다: 누가 만들었나, 무엇을 셌나, 무엇을 빼고 골랐나. 2부에서 만날 모든
+%%   되묻기는 이 세 칸 안에서 자라난다.
+%% 대체 텍스트: 숫자를 받았을 때 떠올리는 되묻기의 뿌리와 세 갈래를 묶은 도식.
+%%   뿌리는 한 질문 "이 숫자는 어떻게 태어났나"이며, 이것이 세 방향으로 갈라진다.
+%%   첫째 출처 — 누가 만들었나. 만든 사람에게 이해관계가 있고, 어떤 숫자를 보여 줄지
+%%   고를 수 있다(트위터가 더 좋아 보이는 새 지표를 골라 만든 예). 둘째 정의 —
+%%   무엇을 셌나. 같은 단어라도 무엇을 센 것인지 뜻이 다르다('활성 사용자'에 산업
+%%   표준 정의가 없는 예, 실업률을 어디까지 셀지). 셋째 범위 — 무엇을 빼고 어느 범위를
+%%   골랐나. 빠진 사람과 잰 기간은 화면에 안 보여 가장 놓치기 쉽다(떠난 고객이 빠진
+%%   만족도 평균의 예). 세 갈래는 따로 외울 항목이 아니라 한 질문을 세 방향에서 본
+%%   것이며, 2부 12개 함정이 모두 이 세 칸 어딘가에서 숨은 선택으로 나타난다. 통계
+%%   용어는 하나도 쓰지 않는다.
+
+flowchart TD
+    ROOT["<b>이 숫자는 어떻게 태어났나?</b><br/>모든 되묻기의 뿌리 — 한 질문<br/>(통계 용어 0개)"]
+
+    SRC["<b>출처</b><br/>누가 만들었나"]
+    DEF["<b>정의</b><br/>무엇을 셌나"]
+    SCO["<b>범위</b><br/>무엇을 빼고 어느 범위를 골랐나"]
+
+    SRCD["만든 사람에게 이해관계가 있다<br/>어떤 숫자를 보여 줄지 고를 수 있다<br/>예: 더 좋아 보이는 새 지표를 골라 만든 트위터"]
+    DEFD["같은 단어라도 센 것이 다르다<br/>지난번과 같은 기준으로 센 건가?<br/>예: 표준 정의가 없는 '활성 사용자'"]
+    SCOD["빠진 사람·잰 기간은 화면에 안 보인다<br/>이 숫자에 안 들어간 건 누구지?<br/>예: 떠난 고객이 빠진 만족도 평균"]
+
+    BASE["2부에서 만날 12개 함정은<br/>모두 이 세 칸 어딘가에서<br/><b>숨은 선택</b>으로 나타난다"]
+
+    ROOT --> SRC
+    ROOT --> DEF
+    ROOT --> SCO
+    SRC --> SRCD
+    DEF --> DEFD
+    SCO --> SCOD
+    SRCD --> BASE
+    DEFD --> BASE
+    SCOD --> BASE
+
+    classDef accent fill:#EBF4FB,stroke:#2B6CB0,stroke-width:2px,color:#243B53;
+    classDef neutral fill:#F0F4F8,stroke:#243B53,color:#243B53;
+    classDef muted fill:#FFFFFF,stroke:#829AB1,color:#829AB1;
+    classDef note fill:#FFFFFF,stroke:#829AB1,stroke-dasharray:4 3,color:#829AB1;
+
+    class ROOT accent;
+    class SRC,DEF,SCO neutral;
+    class SRCD,DEFD,SCOD note;
+    class BASE neutral;
