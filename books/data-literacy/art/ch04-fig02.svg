@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  그림 4-2 | ch04-fig02
+  삽입 위치: 4장 "큰 숫자에 안심하지 마라" 절. 기준 문장 "치우쳐 모은 100만 명은,
+    제대로 무작위로 뽑은 1,000명보다 못할 수 있다. '데이터가 많으면 정확하다'는 믿음,
+    그러니까 양이 질을 대신할 수 있다는 자만이 여기서 무너진다."(43행) 직후. 35~43행이
+    글로 푼 이 장의 클라이맥스("큰 숫자도 추출이 치우치면 진다")를 한 컷으로 못 박는다.
+  캡션: 그림 4-2. 표본은 전체를 들여다보는 창문이다 — 큰 창이라도 한쪽만 비추면, 작아도
+    고루 난 창을 이긴다. 왼쪽은 크지만 한 귀퉁이에만 뚫려 그 구석만 환히 비추는 창이고,
+    오른쪽은 작지만 전체에 고루 뚫려 방 전체를 비추는 창이다. 큰 창으로 본 그림이 더
+    또렷해 보여도, 그건 한쪽 구석을 또렷이 본 것일 뿐 방 전체가 아니다. 표본에서 중요한
+    건 창의 크기가 아니라 창이 전체를 고루 비추느냐다.
+  대체 텍스트(접근성): 표본을 '전체를 들여다보는 창문'에 빗대, 큰 창과 작은 창을 나란히
+    놓고 비교한 개념 그림. 축·눈금·숫자·통계 기호·막대는 하나도 없다. 왼쪽에는 큰 창이
+    있는데, 그 창은 벽의 한쪽 귀퉁이에만 뚫려 있다. 그래서 창을 통해 들어온 빛은 방의 한
+    구석만 환히 비추고 나머지 넓은 부분은 어둠에 잠겨 있다. '크지만 한쪽만 비추는 창'이다.
+    오른쪽에는 작은 창이 여러 개 벽 전체에 고루 흩어져 뚫려 있다. 창 하나하나는 작지만,
+    들어온 빛이 방 곳곳에 골고루 닿아 방 전체의 윤곽이 드러난다. '작지만 고루 비추는
+    창'이다. 가운데 화살표나 승패 표시는 없고, 두 방의 밝기 분포만으로 보여 준다: 큰 창
+    쪽은 한 구석만 밝고 전체는 어둡고, 작은 창 쪽은 전체가 고루 밝다. 핵심 직관은 하나다 —
+    창이 크다고 전체가 보이는 게 아니다. 한쪽만 비추는 큰 창은 그 구석을 또렷이 보여 주며
+    오히려 전체를 봤다고 착각하게 만들고, 고루 난 작은 창이 방의 진짜 모습을 보여 준다.
+    그래서 표본에서 중요한 건 크기가 아니라 전체를 고루 비추느냐다. 숫자도 축 눈금도
+    통계 기호도 없다.
+  무결성/특칙 점검: 이 그림은 데이터 차트가 아니라 '창문(표본)' 비유의 개념 그림이다.
+    축·눈금·수치·막대·통계 기호를 일절 넣지 않아 style.md §1·§4·§6의 "통계 기호·수식·축
+    절단 그래프 배제, 본문이 비판하는 왜곡 차트를 흉내조차 내지 않는다" 특칙을 충족한다.
+    크기 비교를 막대 길이가 아니라 두 '방'의 빛 분포(은유)로만 표현해, 면적 과장·축 절단의
+    여지 자체가 없다. 임의 수치 0개. 지시문이 우려한 "막대·수치 비교 차트"를 쓰지 않고
+    ch03-fig02(축·기호 0 개념그림)와 같은 방식으로 그렸다. 본문 수치 미등장 → 수치 불일치
+    없음.
+  강조색: 사용하지 않음(0회). 강조색 #2B6CB0은 이 책에서 '검문·되묻기 행위'에만 쓰며,
+    이 그림에는 검문 행위 노드가 없다(개념 비유 그림). 같은 장의 그림 4-1이 강조색을 결정타
+    되묻기 노드에 1회 썼으므로, 이 그림은 잉크+보조 회색만으로 그려 강조색 의미를 흐리지
+    않는다. 빛(밝은 면)은 강조색이 아니라 옅은 중립 배경(#F0F4F8)으로 칠해 '검문' 의미와
+    충돌하지 않게 했다. (style.md §1 "도판당 1회"=최대 1회, 의무 아님 — 그림 3-2 선례.)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-labelledby="t d">
+  <title id="t">표본은 전체를 들여다보는 창문이다 — 큰 창이라도 한쪽만 비추면, 작아도 고루 난 창을 이긴다</title>
+  <desc id="d">왼쪽 방은 한쪽 귀퉁이에만 큰 창이 뚫려 그 구석만 환히 비추고 나머지는 어둡다. 오른쪽 방은 작은 창이 벽 전체에 고루 뚫려 방 전체가 골고루 밝다. 창의 크기가 아니라 전체를 고루 비추느냐가 표본의 질을 정함을 보인다. 축·눈금·수치·통계 기호 없음.</desc>
+
+  <rect x="0" y="0" width="720" height="380" fill="#FFFFFF"/>
+
+  <!-- ===== 왼쪽 방: 크지만 한쪽 구석만 비추는 창 ===== -->
+  <!-- 방 벽 -->
+  <rect x="40" y="70" width="280" height="220" rx="4" fill="#243B53" fill-opacity="0.06" stroke="#243B53" stroke-width="1.5"/>
+  <!-- 한쪽 구석(오른쪽 위)만 밝게: 큰 창이 그 구석만 비춤 -->
+  <polygon points="320,70 200,70 320,200" fill="#F0F4F8"/>
+  <!-- 큰 창 (한 귀퉁이에만, 크게) -->
+  <rect x="284" y="84" width="30" height="92" rx="2" fill="#FFFFFF" stroke="#243B53" stroke-width="2"/>
+  <line x1="299" y1="84" x2="299" y2="176" stroke="#243B53" stroke-width="1.5"/>
+  <line x1="284" y1="130" x2="314" y2="130" stroke="#243B53" stroke-width="1.5"/>
+  <!-- 어두운 나머지 영역 라벨 -->
+  <text x="120" y="250" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">나머지는 어둠에 잠겨 보이지 않는다</text>
+
+  <!-- 왼쪽 방 제목 -->
+  <text x="180" y="320" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">크지만 한쪽만 비추는 창</text>
+  <text x="180" y="342" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">물어본 사람은 많아도 한쪽에 쏠렸다</text>
+  <text x="180" y="360" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">→ 그 구석만 또렷이 보고 전체를 봤다고 착각한다</text>
+
+  <!-- ===== 오른쪽 방: 작지만 고루 비추는 창 ===== -->
+  <!-- 방 벽 -->
+  <rect x="400" y="70" width="280" height="220" rx="4" fill="#243B53" fill-opacity="0.06" stroke="#243B53" stroke-width="1.5"/>
+  <!-- 방 전체가 고루 밝음 -->
+  <rect x="402" y="72" width="276" height="216" rx="3" fill="#F0F4F8"/>
+  <!-- 작은 창 여러 개, 벽 둘레에 고루 분포 -->
+  <g fill="#FFFFFF" stroke="#243B53" stroke-width="1.5">
+    <rect x="440" y="78" width="22" height="22" rx="2"/>
+    <rect x="529" y="78" width="22" height="22" rx="2"/>
+    <rect x="618" y="78" width="22" height="22" rx="2"/>
+    <rect x="406" y="150" width="22" height="22" rx="2"/>
+    <rect x="652" y="150" width="22" height="22" rx="2"/>
+    <rect x="440" y="258" width="22" height="22" rx="2"/>
+    <rect x="529" y="258" width="22" height="22" rx="2"/>
+    <rect x="618" y="258" width="22" height="22" rx="2"/>
+  </g>
+  <!-- 작은 창 창틀 십자 -->
+  <g stroke="#243B53" stroke-width="1">
+    <line x1="451" y1="78" x2="451" y2="100"/><line x1="440" y1="89" x2="462" y2="89"/>
+    <line x1="540" y1="78" x2="540" y2="100"/><line x1="529" y1="89" x2="551" y2="89"/>
+    <line x1="629" y1="78" x2="629" y2="100"/><line x1="618" y1="89" x2="640" y2="89"/>
+    <line x1="540" y1="258" x2="540" y2="280"/><line x1="529" y1="269" x2="551" y2="269"/>
+  </g>
+  <text x="540" y="190" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">방 전체가 고루 드러난다</text>
+
+  <!-- 오른쪽 방 제목 -->
+  <text x="540" y="320" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">작아도 고루 비추는 창</text>
+  <text x="540" y="342" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">물어본 사람은 적어도 고루 뽑혔다</text>
+  <text x="540" y="360" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">→ 작아도 방의 진짜 모습을 보여 준다</text>
+
+  <!-- 상단 한 줄 메시지 -->
+  <text x="360" y="44" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="15" font-weight="bold" fill="#243B53">표본은 전체를 들여다보는 창문이다</text>
+  <text x="360" y="62" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">중요한 건 창의 크기가 아니라, 전체를 고루 비추느냐다</text>
+</svg>
