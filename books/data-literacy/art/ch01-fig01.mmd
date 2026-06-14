@@ -1,0 +1,55 @@
+---
+config:
+  theme: base
+  themeVariables:
+    fontFamily: "Pretendard, 'Noto Sans KR', sans-serif"
+    fontSize: "13px"
+    primaryColor: "#F0F4F8"
+    primaryTextColor: "#243B53"
+    primaryBorderColor: "#243B53"
+    lineColor: "#243B53"
+    secondaryColor: "#FFFFFF"
+    tertiaryColor: "#EBF4FB"
+  flowchart:
+    curve: linear
+---
+%% 그림 1-1 | ch01-fig01
+%% 삽입 위치: 1장 "믿거나, 무시하거나, 그리고 제3의 자세" 절.
+%%   기준 문장 "이것이 검문관의 자세다. 믿지도 무시하지도 않고, 받아 든 다음 한 가지를 묻는다."
+%%   (51행 끝) 바로 다음. 본문이 세 자세를 글로 다 설명한 직후, 한 장으로 묶어 보여 준다.
+%% 캡션: 그림 1-1. 데이터를 받았을 때의 세 가지 자세. 믿음과 무시는 정반대 같지만
+%%   둘 다 숫자를 들여다보지 않는다는 점에서 같은 자리에 선다. 검문관만이 받아 든 뒤
+%%   한 줄을 되묻는다.
+%% 대체 텍스트: 화면에 뜬 숫자를 받았을 때의 세 자세를 가른 도식. 왼쪽 "믿는다"는
+%%   근거 없이 그냥 통과시킨다(끄덕임). 오른쪽 "무시한다"는 숫자는 갖다 붙이기
+%%   나름이라며 그냥 흘려보낸다(냉소). 이 둘은 정반대처럼 보여도 숫자를 들여다보지
+%%   않는다는 점에서 한 묶음이며, 어느 쪽도 질문을 던지지 않는다. 가운데 아래의
+%%   "검문관(제3의 자세)"만이 받아 든 다음 "이 숫자는 어떻게 만들어졌나" 한 줄을
+%%   되묻는다 — 통계 용어가 필요 없는 질문이다. 이것이 이 책이 독자에게 만들어 주려는
+%%   자세다.
+
+flowchart TD
+    S["화면에 뜬 숫자<br/>(예: 누군가 들이민 지표 한 줄)"]
+
+    B["<b>믿는다</b> · 기본값<br/>근거도 용기도 없어 끄덕인다<br/>→ 그냥 <b>통과</b>"]
+    I["<b>무시한다</b><br/>숫자는 갖다 붙이기 나름이라며 냉소<br/>→ 그냥 <b>흘려보냄</b>"]
+
+    SAME["같은 자리:<br/>둘 다 숫자를 <b>들여다보지 않는다</b><br/>어느 쪽도 질문하지 않는다"]
+
+    Q["<b>검문관 — 제3의 자세</b><br/>받아 든 다음 한 줄 되묻는다<br/>&quot;이 숫자는 어떻게 만들어졌나?&quot;<br/>(통계 용어 0개)"]
+
+    S --> B
+    S --> I
+    B -.-> SAME
+    I -.-> SAME
+    S ==> Q
+
+    classDef accent fill:#EBF4FB,stroke:#2B6CB0,stroke-width:2px,color:#243B53;
+    classDef neutral fill:#F0F4F8,stroke:#243B53,color:#243B53;
+    classDef muted fill:#FFFFFF,stroke:#829AB1,color:#829AB1;
+    classDef note fill:#FFFFFF,stroke:#829AB1,stroke-dasharray:4 3,color:#829AB1;
+
+    class S neutral;
+    class B,I muted;
+    class SAME note;
+    class Q accent;
