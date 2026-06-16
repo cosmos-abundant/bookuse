@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  그림 12-1 | ch12-fig01
+  삽입 위치: 12장 "한 장으로 모은 되묻기 카드" 절. 원고 17행의 [그림 12-1] 자리 —
+    13~15행이 글로 세운 "2부에서 흩어진 되묻기 카드를 한 장에 모아, 회의 직전 30초에
+    훑고 화면에 숫자가 뜨면 위에서부터 짚어 내려간다"를 한 면의 카드로 묶는다.
+    기준 문장: "각 줄 앞에 어떤 숫자를 만났을 때 꺼내는지를 붙였다."(15행) 직후의
+    [그림 12-1] 안내문(17행)이 가리키는 자리. 이 책 마지막 장의 결정판 — 노트 첫 장이나
+    노트북에 붙이는 "되묻기 카드 한 장".
+  ★ 카드 문구 회수 정합: 8묶음의 모든 되묻기 한 줄은 ch12 본문 카드 절(19~67행)을
+    기준으로 옮기되, 각 장 확정본과 한 글자도 다르지 않게 교차 확인해 가져왔다(아래 표).
+    | 묶음 | 도판 문구 | 출처(ch12 본문 / 원장) |
+    | 뿌리(2장) | "누가 만들었나 / 무엇을 셌나 / 무엇을 빼고 골랐나" | ch12 L23 / ch02 L77·L25·L29 |
+    | 평균(3장) | "이 평균, 분포를 한번 볼 수 있을까요? / 한가운데 값, 그러니까 중간값은 얼마인가요?" | ch12 L29 / ch03 L35 |
+    | 퍼센트·표본(4장) | "전체 몇 명 중이죠? / 그 사람들은 어떻게 뽑았죠?" | ch12 L35 / ch04 L11·L21 |
+    | 증감률(5장) | "원래 몇이었죠? / 왜 그 기간인가요?" (+ 덧대는 한 줄 "이거 퍼센트예요, 퍼센트포인트예요?") | ch12 L41~43 / ch05 L61·L69 |
+    | 상관·인과(6장) | "다른 게 동시에 변하진 않았나요? 둘 다 끌어올린 무언가는 없나요?" (짧게 "안 했어도 그렇게 됐을까요?") | ch12 L47 / ch06 L35 |
+    | 차트(7장) | "이거 세로 눈금이 0부터인가요? / 같은 척도로 비교한 건가요?" | ch12 L53 / ch07 L19·L39 |
+    | 순위·종합점수·KPI(8장) | 점수면 "이건 뭘 어떻게 합친 거죠?" / KPI면 "이 달성은 진짜 현실인가요?" | ch12 L59 / ch08 L81·L115 |
+    | 보이지 않는 것(9장) | "여기 안 잡힌 사람은 누구죠? / 전체 중에 원래 그런 경우가 몇 건인데요?" | ch12 L65 / ch09 L69·L71 |
+    임의로 만든 카드 0개. 모두 확정본 발화 그대로(용어집 '되묻기 질문 카드' 정의 — 통계
+    용어 없는 한 줄). 카드 수 라벨은 본문 69행("열셋 안팎")·용어집("12개") 취지대로
+    "유형별 한 장"이 핵심이며 도판은 개수를 주장하지 않는다.
+  캡션: 그림 12-1. 회의 전 30초에 훑는 되묻기 카드 한 장 — 왼쪽은 화면에 뜨는 숫자의
+    종류, 오른쪽은 그때 소리 내어 물을 한 줄. 맨 위 "어떤 숫자든 — 이 숫자는 어떻게
+    태어났나"가 모든 되묻기의 뿌리이고(누가 만들었나 / 무엇을 셌나 / 무엇을 빼고
+    골랐나), 그 아래로 평균·퍼센트와 표본·증감률·"A 때문에 B"·차트·순위와 점수와
+    KPI·보이지 않는 것의 일곱 묶음이 이어진다. 화면에 숫자가 뜨면 맨 위 뿌리부터 시작해
+    숫자의 종류에 맞는 묶음으로 내려가 그 한 줄을 짚는다. 외우는 카드가 아니라 손 닿는 데
+    두고 위에서부터 짚는 카드다. 오른쪽 열 머리 "→ 이렇게 묻는다"에만 강조색을 둔 것은,
+    이 책에서 강조색이 '받아 들고 한 줄 되묻는 검문'을 가리키기 때문이다(왼쪽 '숫자의
+    종류'에는 강조를 주지 않는다).
+  대체 텍스트(접근성 — 카드 전체를 읽어 주는 전문):
+    회의 전 30초에 훑는 되묻기 카드 한 장이다. 두 칸 구조로, 왼쪽 칸은 "이런 숫자가
+    뜨면"(화면에 올라온 숫자의 종류)이고 오른쪽 칸은 "이렇게 묻는다"(그 자리에서 소리 내어
+    물을 한 줄)이다. 맨 위에 모든 되묻기의 뿌리가 한 줄로 깔린다 — 어떤 숫자든 올라오면,
+    "이 숫자는 어떻게 태어났나"를 세 방향으로 묻는다: 누가 만들었나, 무엇을 셌나, 무엇을
+    빼고 골랐나. 나머지 일곱 묶음은 모두 이 세 칸 어딘가에 숨은 선택이다. 그 아래로 일곱
+    묶음이 이어진다. 첫째, 평균이 올라오면 — "이 평균, 분포를 한번 볼 수 있을까요? 한가운데
+    값, 그러니까 중간값은 얼마인가요?" 둘째, 퍼센트나 비율이 올라오면 — "전체 몇 명 중이죠?
+    그 사람들은 어떻게 뽑았죠?" 셋째, 무엇이 몇 퍼센트 늘었다 줄었다가 올라오면 — "원래
+    몇이었죠? 왜 그 기간인가요?" 그리고 원래 단위가 퍼센트인 숫자(점유율·금리·지지율 같은
+    것)의 변화라면 한 줄을 덧댄다: "이거 퍼센트예요, 퍼센트포인트예요?" 넷째, "A 때문에 B가
+    됐다"는 주장이 올라오면 — "다른 게 동시에 변하진 않았나요? 둘 다 끌어올린 무언가는
+    없나요?" 짧게는 "안 했어도 그렇게 됐을까요?" 다섯째, 차트나 그래프가 올라오면 — "이거
+    세로 눈금이 0부터인가요? 같은 척도로 비교한 건가요?" 여섯째, 순위나 종합점수나 KPI가
+    올라오면 — 받은 게 점수나 순위면 "이건 뭘 어떻게 합친 거죠?", 받은 게 KPI 달성 보고면
+    "이 달성은 진짜 현실인가요?" 일곱째, 화면에 보이는 것만이 아니라 보이지 않는 것 —
+    "여기 안 잡힌 사람은 누구죠? 전체 중에 원래 그런 경우가 몇 건인데요?" 카드를 쓰는 법은
+    위에서 아래로다: 화면에 숫자가 뜨면 맨 위 뿌리부터 시작해, 숫자의 종류에 맞는 묶음으로
+    내려가 그 한 줄을 짚는다. 외우라고 만든 카드가 아니라, 손 닿는 데 두고 숫자가 뜨면
+    위에서부터 짚으라고 만든 카드다. 강조색이 칠해진 곳은 오른쪽 열 머리 "이렇게 묻는다"
+    하나뿐이다 — 왼쪽 '숫자의 종류'에는 강조를 주지 않았다. 모든 줄이 통계 용어가 한 글자도
+    없는 한국어 문장이고, 막대그래프·세로 눈금·데이터 점·퍼센트 비율 라벨·통계 기호·수식은
+    한 곳도 없다. 이것은 데이터 차트가 아니라, 숫자의 종류마다 되물을 한 줄을 짝지어 둔
+    카드다.
+  강조색(#2B6CB0): 오른쪽 열 머리 "→ 이렇게 묻는다"(되묻기 열 헤더) 한 곳에만 1회.
+    이 책 강조색은 '받아 들고 한 줄 되묻는 검문 행위'를 가리키며(style.md §1), 이 카드에서
+    검문이 일어나는 자리가 오른쪽 '되묻기' 열 전체다. 한 장 카드라 개별 노드가 아니라
+    그 열을 묶는 헤더에 1회 주는 것이 "도판당 1회" 원칙에 가장 자연스럽다(지시문 명문).
+    ⚠️ 왼쪽 '이런 숫자가 뜨면' 열(숫자의 종류)에는 강조를 주지 않았다 — 강조색은 '검문'
+    에만 쓰고 대상/입력에는 쓰지 않는다(그림 8-1·10-1·11-1의 "검문에만 강조, 통과/대상엔
+    안 줌" 규칙 계승). 뿌리 줄·여덟 묶음 셀·격자선·머리글은 잉크와 보조 회색만으로 그려
+    강조색이 '검문' 의미를 잃지 않게 했다.
+  ★ 7장 §6-1 예외 미전이 확인: 이 도판은 §6-1(7장 한정 왜곡 차트 허용) 예외를 적용하지
+    않는다. 막대·세로 눈금·가로 눈금·데이터 점·면적 비교·잘린 축이 0개이며, 차트 자체가
+    없는 표 형태의 카드다. 7장 묶음("세로 눈금이 0부터인가요")조차 차트를 그리지 않고 되묻기
+    문구로만 적었다. 7장 예외는 7장에만 적용되고 12장으로 전이되지 않는다는 §6-1 명문을
+    그대로 지킨다.
+  무결성/특칙(style.md §1·§3·§4·§6) 점검:
+    - 통계 기호·수식 0개. 유형 라벨도 일상어로만: "퍼센트·표본", "증감률"은 본문 노출어
+      (용어집 허용)이나 셀 안 설명은 "무엇이 몇 % 늘었다 줄었다"·"A 때문에 B"·"순위·점수·
+      KPI"·"보이지 않는 것"으로 풀어 통계 학술어(표준편차·교란변수·생존편향·기저율 등)
+      노출 0. 용어집 '통계 용어 최소화' 대전제 부합.
+    - 본문 수치와 도판 수치: 도판에 수치 0개(증감률 셀의 "몇 %"는 자리표시 일상어이지
+      특정 값이 아니다). 박서연 가상 서사 수치(38%, 4.4점 등)는 카드에 등장시키지 않았다
+      (카드는 유형별 일반 한 줄). 본문 수치와 도판 수치 불일치 없음(수치 자체가 없음).
+    - 가상 사례 점선 규칙: 이 카드는 페르소나 서사 수치를 노출하지 않으므로 가상 점선
+      노드가 필요 없다. 카드 사용법 안내(맨 아래)는 본문 75·79행의 절차 서술이라 회색
+      점선 테두리(§2 '주석' 용법)로 두되 강조색은 주지 않았다.
+    - 인용 부호: 되묻기 한 줄은 발화이므로 큰따옴표(용어집 인용 부호 규칙). 유형 라벨·
+      뿌리 세 칸은 개념 지칭이라 따옴표 없이 둠.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1000" width="760" height="1000" role="img" aria-labelledby="t d">
+  <title id="t">되묻기 카드 한 장 — 이런 숫자가 뜨면, 이렇게 묻는다</title>
+  <desc id="d">회의 전 30초에 훑는 카드. 왼쪽은 화면에 뜨는 숫자의 종류, 오른쪽은 그때 소리 내어 물을 한 줄. 맨 위 뿌리(이 숫자는 어떻게 태어났나 — 누가 만들었나 / 무엇을 셌나 / 무엇을 빼고 골랐나)부터 시작해, 평균·퍼센트와 표본·증감률·"A 때문에 B"·차트·순위와 점수와 KPI·보이지 않는 것의 일곱 묶음으로 내려가며 짚는다. 막대·눈금·통계 기호 없는 표 카드.</desc>
+
+  <rect x="0" y="0" width="760" height="1000" fill="#FFFFFF"/>
+
+  <!-- ===== 제목 ===== -->
+  <text x="380" y="40" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="15" font-weight="bold" fill="#243B53">되묻기 카드 한 장 — 회의 전 30초에 훑는다</text>
+  <text x="380" y="62" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">화면에 숫자가 뜨면 맨 위 뿌리부터, 숫자의 종류에 맞는 줄로 내려가며 짚는다 (외우지 말고 곁에 둔다)</text>
+
+  <!-- ===== 두 칸 머리글 ===== -->
+  <!-- 왼쪽 열 헤더: 강조 없음 -->
+  <rect x="40" y="82" width="250" height="38" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <text x="165" y="106" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">이런 숫자가 뜨면</text>
+  <!-- 오른쪽 열 헤더: 강조색 1회 (되묻기 = 검문) -->
+  <rect x="298" y="82" width="422" height="38" rx="4" fill="#EBF4FB" stroke="#2B6CB0" stroke-width="2"/>
+  <text x="509" y="106" text-anchor="middle" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#2B6CB0">→ 이렇게 묻는다</text>
+
+  <!-- ===== 뿌리 (full-width 띠) ===== -->
+  <rect x="40" y="130" width="680" height="78" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <text x="56" y="153" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">뿌리 · 어떤 숫자든 올라오면</text>
+  <text x="56" y="172" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">아래 일곱 줄은 모두 이 세 칸 어딘가에 숨은 선택이다 — 다 안 떠올라도 이 한 줄이면 절반은 잡힌다</text>
+  <text x="56" y="196" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" fill="#243B53">이 숫자는 어떻게 태어났나 — <tspan font-weight="bold">누가 만들었나 / 무엇을 셌나 / 무엇을 빼고 골랐나</tspan></text>
+
+  <!-- ===== 일곱 묶음: 2열 행 ===== -->
+  <!-- 각 행: 왼쪽 라벨 셀(40~290) + 오른쪽 되묻기 셀(298~720). 행 높이 86, 간격 6 -->
+
+  <!-- 1) 평균 (y=218) -->
+  <rect x="40" y="218" width="250" height="86" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <text x="56" y="256" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">평균</text>
+  <text x="56" y="278" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">평균 처리시간, 평균 만족도…</text>
+  <rect x="298" y="218" width="422" height="86" rx="4" fill="#FFFFFF" stroke="#243B53" stroke-width="1.5"/>
+  <text x="314" y="252" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" fill="#243B53">&#8220;이 평균, 분포를 한번 볼 수 있을까요?</text>
+  <text x="314" y="276" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" fill="#243B53"> 한가운데 값, 그러니까 중간값은 얼마인가요?&#8221;</text>
+
+  <!-- 2) 퍼센트·표본 (y=310) -->
+  <rect x="40" y="310" width="250" height="86" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <text x="56" y="348" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">퍼센트 · 표본</text>
+  <text x="56" y="370" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">만족도 92%, 응답률 70%…</text>
+  <rect x="298" y="310" width="422" height="86" rx="4" fill="#FFFFFF" stroke="#243B53" stroke-width="1.5"/>
+  <text x="314" y="344" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" fill="#243B53">&#8220;전체 몇 명 중이죠?</text>
+  <text x="314" y="368" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" fill="#243B53"> 그 사람들은 어떻게 뽑았죠?&#8221;</text>
+
+  <!-- 3) 증감률 (y=402, +덧대는 한 줄로 높이 100) -->
+  <rect x="40" y="402" width="250" height="100" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <text x="56" y="440" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">증감률</text>
+  <text x="56" y="462" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">무엇이 몇 % 늘었다 / 줄었다</text>
+  <rect x="298" y="402" width="422" height="100" rx="4" fill="#FFFFFF" stroke="#243B53" stroke-width="1.5"/>
+  <text x="314" y="432" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" fill="#243B53">&#8220;원래 몇이었죠? 왜 그 기간인가요?&#8221;</text>
+  <line x1="314" y1="448" x2="704" y2="448" stroke="#829AB1" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="314" y="468" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">단위가 원래 퍼센트인 숫자(점유율·금리·지지율)의 변화면 한 줄 덧댄다</text>
+  <text x="314" y="488" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" fill="#243B53">&#8220;이거 퍼센트예요, 퍼센트포인트예요?&#8221;</text>
+
+  <!-- 4) A 때문에 B (y=508) -->
+  <rect x="40" y="508" width="250" height="86" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <text x="56" y="546" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">&#8220;A 때문에 B&#8221;</text>
+  <text x="56" y="568" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">A 덕분에 B가 됐다는 주장</text>
+  <rect x="298" y="508" width="422" height="86" rx="4" fill="#FFFFFF" stroke="#243B53" stroke-width="1.5"/>
+  <text x="314" y="542" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" fill="#243B53">&#8220;다른 게 동시에 변하진 않았나요?</text>
+  <text x="314" y="566" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" fill="#243B53"> 둘 다 끌어올린 무언가는 없나요?&#8221; (짧게 &#8220;안 했어도 그렇게 됐을까요?&#8221;)</text>
+
+  <!-- 5) 차트 (y=600) -->
+  <rect x="40" y="600" width="250" height="86" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <text x="56" y="638" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">차트</text>
+  <text x="56" y="660" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">막대·선이 절벽처럼 벌어진 그래프</text>
+  <rect x="298" y="600" width="422" height="86" rx="4" fill="#FFFFFF" stroke="#243B53" stroke-width="1.5"/>
+  <text x="314" y="634" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" fill="#243B53">&#8220;이거 세로 눈금이 0부터인가요?</text>
+  <text x="314" y="658" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" fill="#243B53"> 같은 척도로 비교한 건가요?&#8221;</text>
+
+  <!-- 6) 순위·점수·KPI (y=692, 두 갈래로 높이 100) -->
+  <rect x="40" y="692" width="250" height="100" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <text x="56" y="730" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">순위 · 점수 · KPI</text>
+  <text x="56" y="752" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">종합 1위, 종합점수,</text>
+  <text x="56" y="768" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">KPI 달성 보고</text>
+  <rect x="298" y="692" width="422" height="100" rx="4" fill="#FFFFFF" stroke="#243B53" stroke-width="1.5"/>
+  <text x="314" y="724" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">받은 게 점수·순위면</text>
+  <text x="314" y="744" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" fill="#243B53">&#8220;이건 뭘 어떻게 합친 거죠?&#8221;</text>
+  <text x="314" y="766" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">받은 게 KPI 달성 보고면 &#8220;<tspan font-size="13" fill="#243B53">이 달성은 진짜 현실인가요?</tspan>&#8221;</text>
+
+  <!-- 7) 보이지 않는 것 (y=798) -->
+  <rect x="40" y="798" width="250" height="86" rx="4" fill="#F0F4F8" stroke="#243B53" stroke-width="1.5"/>
+  <text x="56" y="836" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" font-weight="bold" fill="#243B53">보이지 않는 것</text>
+  <text x="56" y="858" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">종류와 상관없이 자료 전체에</text>
+  <rect x="298" y="798" width="422" height="86" rx="4" fill="#FFFFFF" stroke="#243B53" stroke-width="1.5"/>
+  <text x="314" y="832" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" fill="#243B53">&#8220;여기 안 잡힌 사람은 누구죠?</text>
+  <text x="314" y="856" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="13" fill="#243B53"> 전체 중에 원래 그런 경우가 몇 건인데요?&#8221;</text>
+
+  <!-- ===== 카드 사용법 (주석·점선) ===== -->
+  <rect x="40" y="900" width="680" height="72" rx="4" fill="#FFFFFF" stroke="#829AB1" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="56" y="922" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">쓰는 법 — 위에서 아래로. 먼저 맨 위 뿌리 세 칸을 긋고(많은 칸이 &#8220;모른다&#8221;로 채워지는 게 정상), 그다음 숫자의</text>
+  <text x="56" y="940" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">종류에 맞는 줄로 내려가 짚는다. 마지막엔 종류와 상관없이 &#8220;여기 안 잡힌 사람은 누구죠&#8221;를 자료 전체에 한 번 던진다.</text>
+  <text x="56" y="958" text-anchor="start" font-family="Pretendard, 'Noto Sans KR', sans-serif" font-size="11" fill="#829AB1">짚어 나온 빈칸을 다 따지는 게 아니라(트집꾼이 된다), 멈출 것만 골라 다음 회의에 한 줄로 꺼낸다 — 카드는 외우는 게 아니라 곁에 두는 것.</text>
+</svg>
